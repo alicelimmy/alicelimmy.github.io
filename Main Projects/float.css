@@ -10,8 +10,10 @@
 
 #header {width: 758px;}
 
-#content {width: 158px; float: right;}
+#content {width: 224.66667px; float: right;}
 
-#sidebar {width: 558px; float: left;}
+#middle {width: 224.66667px; float:left;}
+
+#sidebar {width: 224.66667px; float: left;}
 
 #footbar {width: 758px; clear:both;}
