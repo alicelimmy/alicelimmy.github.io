@@ -64,12 +64,12 @@ body {
 }
 
 .second { 
-    width: 86%;
+    width: 88%;
     height: 70%;
     overflow: auto;
     margin:auto;
-    padding-left:7%;
-    padding-right:7%;
+    padding-left:5%;
+    padding-right:5%;
     padding-top: 0%;
     font-family: 'Montserrat', sans-serif;
     color:#192f3d; 
