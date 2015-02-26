@@ -1,0 +1,134 @@
+body {
+    max-width: 1272px;
+    width: 100%;
+    max-height: 2000px; 
+    height: 100% 
+    border: 2px solid black;
+   float: center;
+    padding: 4px;
+    margin: auto;
+   
+    
+}
+
+.first {
+    
+    width: 87%;
+    height: 50%;
+    float: center;
+    font-family: 'Montserrat', sans-serif;
+    color:#b3d6e2; 
+    font-size: 60px;
+    background-image: url(svg/opacity.png);
+    background-repeat:no-repeat;
+    background-size: 100% 99%;
+    overflow: auto;
+    padding:6%;
+    padding-top:2%;
+    
+  
+}
+
+.appname {
+    color:#f6cc1f;
+    font-size:80px;
+    
+    
+}
+
+
+
+
+.google {
+    float:left;
+    width: 28%;
+    height: 10%;
+    padding-bottom: 2px;
+    padding-right: 50px;
+}
+
+.apple {
+    float:left;
+    width: 32%;
+    height: 12%;
+    padding-bottom: 20px;
+}
+
+
+.lightoff {
+    width:15%;
+    height:20%;
+    float: right;
+    margin-top:10%;
+    margin-right:4%;
+}
+
+.second { 
+    width: 86%;
+    height: 70%;
+    overflow: auto;
+    margin:auto;
+    padding-left:7%;
+    padding-right:7%;
+    padding-top: 0%;
+    font-family: 'Montserrat', sans-serif;
+    color:#192f3d; 
+    font-size:40px;
+    text-align: center;
+}
+
+.secondleft, .secondmiddle, .secondright {
+    width: 29%;
+    height: 70%;
+    padding: 2%;
+    float: left;
+    line-height:70%;
+}
+
+.firsttext, .secondtext, .thirdtext {
+    font-family:'Montserrat', sans-serif;
+    font-size:20PX;
+    color:#b3d6e2;
+}
+
+.shoot,  .plug {
+    width:55%;
+    height: 55%;
+    margin:auto;
+    padding-left:8%;
+    padding-right:8%;
+  
+}
+
+.idea {
+    width: 55%;
+    height: 57%;
+}
+        
+
+.third { 
+    width: 86%;
+    height: 50%;
+    padding: 7%;
+    overflow: auto;
+    margin: auto;
+    
+}
+
+.rect {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+}
+    
+
+.home, .camera  , .zoom , .search {
+    width:13%; 
+    height: 33%;
+    
+  
+}
+
+@media (max-width: 460px){
+    .first, .second, .third {
+        width: 98%}
