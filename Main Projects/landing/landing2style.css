@@ -200,13 +200,15 @@ hr {
 
 @media (max-width: 800px)
 {
-    .thirdleft, .thirdmiddle, .thirdright { width: 90%; float: none; }
+    .thirdleft, .thirdmiddle { width: 90%; float: none; padding-bottom: 20%;}
+    .thirdright { width: 90%; float: none; margin-bottom: 1%; padding-bottom: 1%;}
    .lightoff { width: 50%; float: none;  padding-left: 27%;} 
-    .secondright { width: 80%; text-align: center; padding-right: 10%; } 
-    .camera, .search { width: 45%; float: center;}
+    .secondright { width: 80%; text-align: center; padding-right: 10%; padding-bottom: 20%; padding-top: 20%; } 
+    .camera, .search { width: 45%; float: center;padding-top: 15%; }
     .appname {text-align: center;} 
     .first { font-size: 40px;}
     .appname  { font-size:60px;}
+    .third { margin-bottom: 2%;}
     } 
     
 }
