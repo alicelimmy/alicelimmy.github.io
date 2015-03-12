@@ -198,3 +198,13 @@ hr {
     padding-bottom: 20px;
 }
 
+@media (max-width: 800px)
+{
+    .thirdleft, .thirdmiddle, .thirdright { width: 90%; float: none; }
+   .lightoff { width: 50%; float: none;  padding-left: 27%;} 
+    .secondright { width: 80%; text-align: center; padding-right: 10%; } 
+    .camera, .search { width: 45%; float: center;}
+    .appname {text-align: center;} 
+    } 
+    
+}
