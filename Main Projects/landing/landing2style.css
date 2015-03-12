@@ -205,6 +205,8 @@ hr {
     .secondright { width: 80%; text-align: center; padding-right: 10%; } 
     .camera, .search { width: 45%; float: center;}
     .appname {text-align: center;} 
+    .first { font-size: 40px;}
+    .appname  { font-size:60px;}
     } 
     
 }
