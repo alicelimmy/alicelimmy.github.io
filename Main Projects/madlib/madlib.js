@@ -57,9 +57,12 @@ function myFunction()  {
     
     if (words.noun1 != null) {
         document.getElementById("madlib").innerHTML =
-        "If I ever had a child I would name it" + '&nbsp;' + words.noun1 +"." + '&nbsp;' +
-        "I would go" + '&nbsp;' + words.verb1 + '&nbsp;' + "with them 50 times a day."  + '&nbsp;' 		+ "Then we would go to" + '&nbsp;' + words.noun2  + '&nbsp;' + "and" +
-        '&nbsp;' + words.verb2 + '&nbsp;' + " with" + '&nbsp;' + words.noun3 +".";
+        "If I ever had a child I would name it" + '&nbsp;<span class= words>' + words.noun1 +"</span>." + '&nbsp;' +
+        "I would go" + '&nbsp;<span class= words>' + words.verb1 + '</span>&nbsp;' + "with them 50 times a day."  + '&nbsp;' 		+ "Then we would go to" + '&nbsp;<span class= words>' + words.noun2  + '</span>&nbsp;' + "and" +
+        '&nbsp;<span class= words>' + words.verb2 + '</span>&nbsp;' + " with" + '&nbsp;<span class= words>' + words.noun3 +"</span>.";
+		
+		document.getElementById("madlib").style.visibility = "visible";
+		
     }
 	
 	

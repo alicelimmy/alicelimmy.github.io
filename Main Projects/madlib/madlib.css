@@ -12,7 +12,7 @@ button {font-family: "helvetica";
 
 button:hover {
     border: none;
-    background: #00FF66;
+    background: #9900FF;
     box-shadow: 0px 0px 1px #777;
 	
 }
@@ -21,13 +21,19 @@ button:hover {
 
 #madlib {font-family: "helvetica"; 
 	font-size: 150px;
-	color: #00FF66;
+	color: #66FFCC;
 	padding:20px;
 	line-height: 175px;
 	letter-spacing:3px;
-	border: 9px solid #33FFCC;
+	border: 9px solid #9900FF;
 	text-align: left;
 	margin: 6px;
+	visibility:hidden;
+	
 	
 }
-    
+   
+
+span.words {
+	color:#9900FF;
+}
