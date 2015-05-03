@@ -1,7 +1,12 @@
+html {
+		
+		font-family: 'aktiv_grotesk_triallight';
+		
+	}
+
 
 .top {
 	width: 73%;
-	position:fixed;
 	top: 0;
 	margin-left: 13.5%;
 	margin-right: 13.5%;
@@ -16,10 +21,20 @@
 	
 }
 
+		@media (min-width: 650px) and (max-width: 1400px) {
+			img.navbutton {
+			 display: none; 
+			}
+
+			img.searchbutton {
+				display: none; 
+			}
+		}
 
 h1 {
 	font-size: 280%;
-	line-height: 45%;marin-bottom: 2%;
+	line-height: 45%;
+	marin-bottom: 2%;
 
 }
 
@@ -139,13 +154,13 @@ h1.articleheader {
 }
 	
 .bodyleft {
-	width:48%;
+	width:49%;
 	float: left;
 	font-size: 90%;
 }
 
 .bodyright {
-	width:48%;
+	width:49%;
 	float: right;
 	font-size: 90%;
 }
@@ -174,6 +189,13 @@ vertical-align: middle;
 	width: 3.1%;
 	padding: 1%;
 	right: 4%;
+	
+}
+
+.subscribe2 {
+	width: 15%;
+	display: inline;
+	
 	
 }
 
@@ -219,13 +241,8 @@ h3{
 	filter: alpha(opacity=30);
 }
 
-.subscribe2 {
-	width: 15%;
-	display: inline;
-	
-	
-}
 
+/*_______________________________________related posts  end __________*/
 
 
 
@@ -245,6 +262,7 @@ footer {
 	font-family: 'gt_walsheim_pro_trialmedium';
 	color: #f2e833;
 	font-size:220%;
+
 	
 }
 
@@ -320,21 +338,26 @@ footer {
 	background-color: #f2e833;
 	padding: 2%;
 	color: #000000;
-	font-size:132%;
-	font-family: 'gt_walsheim_pro_trialmedium';
+	font-size:82%;
 	
+}
+
+.title {
+	font-size: 165%;
+	font-family: 'gt_walsheim_pro_trialmedium';
 }
 
 .facebook3 , .twitter3 , .instagram3 {
-	width: 15%;
+	width: 20%;
 	padding-right:9%; 
+	margin-top: 10%;
 	
 }
 
 
+/******************************************************************************************************************************************************************/
 
-
-@media(max-width:480px) {
+@media( max-width:650px) {
 
 	
 	.body {
@@ -347,6 +370,7 @@ footer {
 	html {
 		width: 100%;
 		left: 0;
+		font-family: 'aktiv_grotesk_triallight';
 		
 	}
 		
@@ -355,6 +379,38 @@ footer {
 	}
 	
 	
+	
+	.navbutton {
+		width: 7%;
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 0;
+	}
+	
+	.searchbutton {
+		width: 9%;
+		height: 7%;
+		z-index: 9999999;
+		float:right;
+		margin-top: 4%;
+		margin-right: 6%;
+		margin-left: 0;
+	}
+		
+	
+	h1.vitamin {
+	font-size: 230%;
+	float:left;
+	margin-left: 25%;
+
+	
+		
+	
+	}
+		
 	.top {
 		
 		background-color: black;
@@ -365,6 +421,7 @@ footer {
 		position:fixed;
 		left:0; 
 		width:100%; 
+	
 		
 	}
 		
@@ -385,7 +442,7 @@ footer {
 	.brunch {
 		width: 100%;
 		float:left;
-		margin-top: 40%;
+		margin-top: 21%;
 
 		
 	}
@@ -396,11 +453,13 @@ footer {
 		border-bottom: 2px solid #000000;
 		width: 92%;
 		line-height: 110%;
-		margin-top: 105%;
+		margin-top: 90%;
 		
 		
 	
 	}
+	
+	
 
 	.date {
 		font-family: 'gt_walsheim_pro_trial_regulRg';
@@ -441,6 +500,7 @@ footer {
 		margin-left: 20%;
 		margin-right: 20%;
 		width: 60%;
+		margin-bottom: 10%;
 
 	}
 	
@@ -458,59 +518,235 @@ footer {
 	}
 	
 	.subscribe2 {
-		width: 60%;
-		margin-left: 20%;
-		margin-right: 20%;
-		margin-bottom: 15%;
+		width: 70%;
+		margin-left: 15%;
+		margin-right: 15%;
+		margin-bottom: 20%;
 		margin-top:15%;
 	
 	}
 
 /*	______________________________________*/	
 	
-	.relatedposts {
+	div.relatedposts {
 		font-family: 'gt_walsheim_pro_trial_regulRg';
-		line-height: 180%;
-		font-family: 'gt_walsheim_pro_trial_regulRg';
+		line-height: 170%;
 		font-size: 140%;
 		float: left;
 		padding-top: 2%;
 		width:100%;
+		margin-bottom: 10%;
+		margin-left: 0;
+		margin-right: 0;
 
 		
 	}
 		
-	h3{
-		border-bottom: 5px solid #000000;
-		width: 100%;
+	h3 {
+		border-bottom: 3px solid #000000;
+		width: 90%;
 		left: 0;
+		
 		
 	}
 		
 
 	.relatedimages  {
-		width: 100%;
-		height: 100%;
+		width: 48%;
+		height: 48 s%;
 		float:left;
+		display:inline-block;
+		padding: 1%;
+		opacity: 1 ; 
 		}
 	
+	.salmon {
+		display:none;
+	}
 	
-/*
+/*	______________________________________*/		
+	
+	
+	
+footer {
+
+	float: left;
+	margin-top: 5%;
+	margin-left: 0;
+	margin-right:0;
+	left:0;
+	
+	
+}
+
+.about {
+	width: 100%; 
+	background-color: #000000;
+	float: left;
+	display:block;
+	margin-left: 13%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	color: white;
+	font-size: 80%;
+	line-height: 205.9%;
+	padding: 8%;
+
+	
+	
+}
+
+.aboutheader { 
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:180%;
+	
+}
 
 
+
+.aboutlinks {
+	color: #f2e833;
+	font-size:110%;
 	
-.test {
+	
+}
+
+
+.newsletter {
 	width: 100%;
-	background-color: green; 
-	z-index: 999909999;
+	color: #ffffff;
+	float: left;
+	background-color: #000000;
+	font-size: 70%;
+	margin-left: 13%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	padding: 8%;
+	line-height: 245%;
+}
+
+.newsletterheader {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:200%;
+
 	
 }
-*/
 
 
+
+.newsletterform {
+	border: 1px solid white; 
+	width: 98%; 
+	padding: 1%;
+	display: block;
+	float:left;
+	margin-bottom: 7%;
+	
+	
+}
+
+.submit {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:132%;
+	background-color: transparent;
+	display:block;
+	float: left;
+	text-align: center;
+	margin-left: 40%;
+	margin-right: 40%:
+
+	
+	
+	
+}
+
+
+.social {
+	width:100%;
+	color: #ffffff;
+	float: left;
+	background-color: #f2e833;
+	color: #000000;
+	font-size:90%;
+	font-family: 'aktiv_grotesk_triallight';
+	margin-left: 13%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	padding: 8%;
+	
+}
+	
+.title {
+	
+	font-family: 'gt_walsheim_pro_trialmedium';
+	font-size:150%;
+	
 }
 	
 
+.facebook3 , .twitter3 , .instagram3 {
+	width: 15%;
+	padding-right:9%; 
+	
+}
 
-@media (max-device-width: 1024px) {
+	
+
+
+
+/******************************************************************************************************************************************************************/
+
+	
+@media(max-width:480px) {
+	
+	h1.vitamin {
+		font-size: 200%;
+			float:left;
+	margin-left: 20%;
+	}
+	
+	.brunch {
+		width: 100%;
+		float:left;
+		margin-top: 28%;
+
+		
+	}
+
+	h1.articleheader {
+		font-family: 'gt_walsheim_pro_trial_regulRg';
+		font-size: 133%;
+		border-bottom: 2px solid #000000;
+		width: 92%;
+		line-height: 110%;
+		margin-top: 98%;
+
+		
+	
+	}
+	
+	.navbutton {
+		width: 7%;
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		margin-top: 7%;
+		margin-left: 4%;
+		margin-right: 0;
+	}
+	
+	.searchbutton {
+		width: 9%;
+		height: 7%;
+		z-index: 9999999;
+		float:right;
+		margin-top: 6%;
+		margin-right: 7%;
+		margin-left: 0;
+	}
+		
+	
 }
