@@ -27,7 +27,7 @@ body {
 	
 }
 
-		@media (min-width: 650px) and (max-width: 1400px) {
+		@media (min-width: 768px) and (max-width: 1400px) {
 			img.navbutton {
 			 display: none; 
 			}
@@ -366,7 +366,7 @@ footer {
 
 /******************************************************************************************************************************************************************/
 
-@media( max-width:650px) {
+@media( max-width:768px) {
 
 	
 	body {
@@ -395,7 +395,7 @@ footer {
 		height: 7%;
 		z-index: 9999999;
 		float:left;
-		margin-top: 5%;
+		margin-top: 3%;
 		margin-left: 3%;
 		margin-right: 0;
 	}
@@ -405,7 +405,7 @@ footer {
 		height: 7%;
 		z-index: 9999999;
 		float:right;
-		margin-top: 4%;
+		margin-top: 3%;
 		margin-right: 6%;
 		margin-left: 0;
 	}

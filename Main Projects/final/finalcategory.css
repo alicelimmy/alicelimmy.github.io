@@ -5,7 +5,8 @@ html {
 	}
 
 body {
-	width: 68%; 
+	width: 68%;
+	max-width: 1200px;
 	margin-left:14%;
 	margin-right: 14%;
 }
