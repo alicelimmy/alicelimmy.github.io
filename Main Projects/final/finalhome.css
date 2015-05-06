@@ -24,7 +24,7 @@ body {
 	
 }
 
-		@media (min-width: 768px) and (max-width: 1700px) {
+		@media (min-width: 768px) and (max-width: 2000px) {
 			img.navbutton {
 			 display: none; 
 			}
@@ -472,7 +472,7 @@ footer {
 
 /************************media query ipad ****************************************************************************************************************/
 
-@media( max-width:650px) {
+@media( max-width:768px) {
 
 	body {
 		width: 96%;
