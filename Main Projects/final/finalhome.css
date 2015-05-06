@@ -1,0 +1,1085 @@
+html {
+		
+		font-family: 'aktiv_grotesk_triallight';
+		
+	}
+
+body {
+	width: 68%; 
+	margin-left:14%;
+	margin-right: 14%;
+}
+
+.top {
+	width: 100%;
+	top: 0;
+	z-index: 99999;
+	font-family: 'gt_walsheim_pro_trialmedium';
+	padding-bottom: 0%;
+	background-color: white;
+	float: left;
+	padding-left: 2%;
+	color: black;
+	
+	
+}
+
+		@media (min-width: 650px) and (max-width: 1400px) {
+			img.navbutton {
+			 display: none; 
+			}
+
+			img.searchbutton {
+				display: none; 
+			}
+		}
+
+h1 {
+	font-size: 280%;
+	line-height: 45%;
+	margin-bottom: 3.5%;
+	
+
+}
+
+
+.second {
+	font-size: 30%;
+	font-family: 'aktiv_grotesk_triallight';
+}
+
+/*________________________________________nav___________*/
+
+.nav {
+	width:100%;
+	
+}
+
+nav {
+	width:100%;
+	
+	background-color: #f2e833;
+	width: 100%;
+	height: 4%;
+	float: left;
+	z-index: 0;
+	
+}
+
+.subscribe {
+	width: 9%;
+	height: 15%;
+	float:right;
+	padding-top: .8%;
+	padding-right: 2%;
+	padding-left: 1%;
+	
+}
+
+.facebook , .twitter , .instagram {
+	width: 2.7%;
+	padding: .5%;
+	padding-top:.8%;
+	height: 6%;
+	float:right;
+	
+}
+
+
+.news , .recipes ,  .events , .favorites { 	
+		float: left;
+		width: 10.1%;
+		height: 10%;
+	}
+
+.divider {
+	float: left; 
+	width: 3%;
+	height: 4%;
+	}
+
+.home{ 
+	float: left;
+	width: 5%;
+	height: 10%;
+	}
+
+ .search { 
+	float: left;
+	width: 5.3%;
+	height: 10%;
+	}
+
+.clear {
+	clear: both;
+}
+
+li {
+	display: inline;
+}
+
+
+
+/*_______________________________________end_nav___________*/
+
+
+
+/*______________________________________first section__________*/
+
+div.firstsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top: 3%;
+	
+}
+
+	section.firsttext {
+		float:left;
+		bottom:0;
+		width: 45%;
+		display:inline-block;
+
+
+	}
+
+		h1.firstarticle {
+			margin-top: 55%;
+			font-size: 227%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			color: black;
+			line-height: 130%;
+			border-bottom: 4px solid #000000;
+			bottom: 0;
+			display: inline-block;
+			
+		}
+
+		.mediadata {
+		display:none;
+			
+	}
+		
+		a.firstlink {
+			text-decoration:none;
+		}
+
+	section.firstimage {
+		width: 45%;
+		display: inline-block;
+		float: right;
+		bottom:0;
+	}
+
+	img.firstpicture {
+		width: 100%; 
+		margin:0;
+		float:right; 
+		margin-top: 3%;
+		display:inline-block;
+	}
+
+	img.mobilefirstpicture {
+		display: none;
+	}
+
+	
+
+
+
+	
+
+/*______________________________________first section_ end_________*/
+
+
+/*_______________________________________second section__________*/
+
+div.secondsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top:5%;
+	overflow:hidden;
+}
+
+	img.secondpicture {
+		width: 48%; 
+		margin:0;
+		float: left; 
+		
+		display: inline-block;
+		
+	}
+
+	section.secondtext {
+		width:48%;
+		float:right;
+		font-family: 'aktiv_grotesk_triallight';
+		font-size: 100%;
+		line-height: 100%;
+		border-bottom: 4px solid #000000;
+		
+	}
+
+		h2.secondarticle {
+			font-size: 233%;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			color: black;
+			float:left;
+			margin-top: 25%;
+			
+		}
+
+
+		p.secondbodytext {
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 90%;
+			line-height: 130%;
+			text-align: left;
+			margin-top: 35%;
+		
+
+		}
+			
+
+/*_______________________________________second section____ end______*/
+
+/*________________________third section__start ______________*/
+
+div.thirdsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top:5%;
+	overflow:hidden;
+}
+
+	img.thirdpicture {
+		width: 48%; 
+		margin:0;
+		float: right; 
+		margin-top: 3%;
+		display: inline-block;
+		
+	}
+
+	section.thirdtext {
+		width:48%;
+		float:left;
+		font-family: 'aktiv_grotesk_triallight';
+		font-size: 100%;
+		line-height: 100%;
+		border-bottom: 4px solid #000000;
+		
+
+	}
+
+
+		h2.thirdarticle {
+			font-size: 233%;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			color: black;
+			float:right;
+			margin-top: 33%;
+			
+		}
+
+		p.thirdbodytext {
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 90%;
+			line-height: 130%;
+			text-align: right;
+			margin-top: 42%;
+		
+
+		}
+			
+/*________________________third section__start ______________*/
+
+
+/*_______________________________________fourth section __________*/
+
+div.fourthsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	overflow:hidden;
+	margin-top: 5%;
+
+}
+
+	section.fourthtext {
+
+		line-height: 110%;
+		
+
+	}
+
+		h2.fourtharticle {
+			float:left;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			font-size: 207%;
+			display: block;
+			
+			line-height: 50%;
+		}
+
+
+		h3.fourtharticlecaption {
+			float:left;
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 95%;
+			display:block;
+			border-bottom: 4px solid #000000;
+
+		}
+
+
+	section.fourthimages {
+
+		width:100%;
+		display:inline-block;
+		padding-bottom: 2.5%;
+		border-bottom: 4px solid #000000;
+		
+	}
+
+		.fourthleft , .fourthmiddle , .fourthright {
+			display:inline-block;
+			float:left;
+			width:32.6%;
+		}
+
+
+		.fourthmiddle {
+			padding-left:1%;
+			padding-right:1%;			
+		}
+
+/*_______________________________________fourth section __end ________*/
+
+/*_______________________________________footer_____start_____*/
+
+
+footer {
+	float: left;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom:5%;
+	
+}
+
+
+
+.aboutheader { 
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:220%;
+
+	
+}
+
+.about {
+	width: 26%; 
+	background-color: #000000;
+	float: left;
+	margin-right: 1.5%;
+	color: white;
+	padding: 2%;
+	font-size: 70%;
+	line-height: 205.9%;
+	
+	
+}
+
+.aboutlinks {
+	color: #f2e833;
+	font-size:110%;
+	padding-right: 10%;
+	
+}
+
+
+.newsletter {
+	width: 38%;
+	color: #ffffff;
+	float: left;
+	background-color: #000000;
+	margin-right: 1.5%;
+	padding: 2%;
+	font-size: 70%;
+}
+
+.newsletterheader {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:200%;
+	
+}
+
+
+
+.newsletterform {
+	border: 1px solid white; 
+	width: 65%; 
+	padding: 1%;
+	float:left;
+	
+	
+}
+
+.submit {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:132%;
+	background-color: transparent;
+	display:inline;
+	float: left;
+	padding: 2%;
+	text-align: center;
+	margin-left: 3%;
+	
+	
+}
+	
+
+
+.social {
+	width:21%;
+	color: #ffffff;
+	float: left;
+	background-color: #f2e833;
+	padding: 2%;
+	color: #000000;
+	font-size:82%;
+	
+}
+
+.title {
+	font-size: 165%;
+	font-family: 'gt_walsheim_pro_trialmedium';
+}
+
+.facebook3 , .twitter3 , .instagram3 {
+	width: 20%;
+	padding-right:9%; 
+	margin-top: 10%;
+	
+}
+
+/*_______________________________________footer_____start_____*/
+
+
+/************************media query ipad ****************************************************************************************************************/
+
+@media( max-width:650px) {
+
+	body {
+		width: 96%;
+		margin-left: 2%;
+		margin-right: 2%;
+		padding: 0;
+		font-family: 'aktiv_grotesk_triallight';
+		
+	}
+		
+	.clear {
+		dispaly:none;
+	}
+	
+	
+	
+	.navbutton {
+		width: 7%;
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		margin-top: 5%;
+		margin-left: 3%;
+		margin-right: 0;
+	}
+	
+	.searchbutton {
+		width: 9%;
+		height: 7%;
+		z-index: 9999999;
+		float:right;
+		margin-top: 4%;
+		margin-right: 6%;
+		margin-left: 0;
+	}
+		
+	
+	h1.vitamin {
+	font-size: 230%;
+	float:left;
+	margin-left: 25%;
+
+	
+		
+	
+	}
+		
+	.top {
+		
+		background-color: black;
+		color: white;
+		text-align: center;
+		margin:0%;
+		margin-left:0%;
+		position:fixed;
+		left:0; 
+		width:100%; 
+	
+		
+	}
+		
+	.nav {
+		display: none;
+	}
+		
+/*	_________first section start_____________________________/*/
+	
+	div.firstsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top: 10%;
+	
+}
+
+
+	img.mobilefirstpicture {
+		display:block;
+		width:100%;
+		margin-top: 11%;
+
+	}
+	
+	
+	img.firstpicture {
+		display:none;
+		
+	}
+
+
+	section.firsttext {
+		float:left;
+		bottom:0;
+		width: 80%;
+		margin-left:auto;
+		margin-right: auto;
+		display:block;
+
+
+	}
+
+		h1.firstarticle {
+			margin-top: 8%;
+			font-size: 180%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			color: black;
+			line-height: 130%;
+			border-bottom: 5px solid #000000;
+			bottom: 0;
+			
+		}
+	
+		.mediadata {
+			display: block;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			font-size: 140%;
+			float: left;
+			color: #f2e833;
+		}
+	
+		h1.firstarticle br{display:none;}
+	
+		
+		a.firstlink {
+			text-decoration:none;
+		}
+
+/*	______second section_____________________*/
+	
+	div.secondsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top:8%;
+	overflow:hidden;
+		
+}
+
+	img.secondpicture {
+	
+		width:85%;
+		float:left;
+		margin-right: 25%;
+		
+	}
+	
+
+
+	section.secondtext {
+		width:96%;
+		float:left;
+		font-family: 'aktiv_grotesk_triallight';
+		font-size: 100%;
+		line-height: 110%;
+		border-bottom: none;
+		display:block;
+		margin-left: 2%;
+		margin-right: 2%;
+		border-bottom: 2px solid #000000;
+		
+	}
+
+		h2.secondarticle {
+			font-size: 200%;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			color: black;
+			float:right;
+			margin-top: 7%;
+			border-bottom: 4px solid  #f2e833;
+			line-height: 100%;
+			margin-bottom: 0;
+			
+		}
+	
+
+		p.secondbodytext {
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 90%;
+			line-height: 160%;
+			text-align: right;
+			margin-top: 15%;
+		
+
+		}
+	
+/*	_________third section __________________*/
+	
+div.thirdsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	margin-top:4%;
+	overflow:hidden;
+}
+
+	img.thirdpicture {
+		width: 85%; 
+		margin:0;
+		float: right; 
+		margin-top: 2%;
+		display: inline-block;
+		
+	}
+
+	section.thirdtext {
+		width:96%;
+		float:left;
+		font-family: 'aktiv_grotesk_triallight';
+		font-size: 100%;
+		line-height: 100%;
+		border-bottom: 2px solid #000000;
+		text-align: left;
+		margin-left: 2%;
+		margin-right: 2%;
+		
+
+	}
+
+
+		h2.thirdarticle {
+			font-size: 200%;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			color: black;
+			float:left;
+			margin-top: 7.5%;
+			margin-bottom: 0;
+			border-bottom: 4px solid  #f2e833;
+			line-height: 100%;
+			display: inline-block;
+			
+		}
+
+		p.thirdbodytext {
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 90%;
+			line-height: 160%;
+			text-align: left;
+			margin-top: 5%;
+			display: inline-block;
+		
+
+		}
+
+	
+/*	____fourth section_______________________*/
+
+div.fourthsection {
+	width: 100%;
+	float: left;
+	padding:0%;
+	overflow:hidden;
+	margin-top: 5%;
+
+}
+
+	section.fourthtext {
+
+		line-height: 110%;
+		width:96%;
+		margin-right: 2%;
+		margin-left: 2%;
+	
+
+	}
+
+		h2.fourtharticle {
+			float:left;
+			font-family: 'gt_walsheim_pro_trial_regulRg';
+			font-size: 207%;
+			display: block;
+			
+			line-height: 50%;
+		}
+
+
+		h3.fourtharticlecaption {
+			float:left;
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 95%;
+			display:block;
+			border-bottom: 4px solid #f2e833;
+
+		}
+
+
+	section.fourthimages {
+
+		width:100%;
+		display:inline-block;
+		padding-bottom: 2.5%;
+		border-bottom: 2px solid #000000;
+		
+	}
+
+		.fourthleft , .fourthmiddle , .fourthright {
+			display:inline-block;
+			float:left;
+			width:60%;
+			margin-left: 20%;
+			margin-right: 20%;
+			margin-bottom:5%;
+		}
+
+
+		.fourthmiddle {
+			padding-left:0%;
+			padding-right:0%;			
+		}	
+	
+	
+/*	______________________________________*/
+	
+	
+footer {
+
+	float: left;
+	margin-top: 5%;
+	margin-left: 0;
+	margin-right:0;
+	left:0;
+	
+	
+}
+
+.about {
+	width: 68%; 
+	background-color: #000000;
+	float: left;
+	display:block;
+	margin-left: 11%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	color: white;
+	font-size: 80%;
+	line-height: 205.9%;
+	padding: 4%;
+
+	
+	
+}
+
+.aboutheader { 
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:180%;
+	
+}
+
+
+
+.aboutlinks {
+	color: #f2e833;
+	font-size:110%;
+	
+	
+}
+
+
+.newsletter {
+	width: 68%;
+	color: #ffffff;
+	float: left;
+	background-color: #000000;
+	font-size: 70%;
+	margin-left: 11%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	padding: 4%;
+	line-height: 245%;
+}
+
+.newsletterheader {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:200%;
+
+	
+}
+
+
+
+.newsletterform {
+	border: 1px solid white; 
+	width: 98%; 
+	padding: 1%;
+	display: block;
+	float:left;
+	margin-bottom: 7%;
+	
+	
+}
+
+.submit {
+	font-family: 'gt_walsheim_pro_trialmedium';
+	color: #f2e833;
+	font-size:132%;
+	background-color: transparent;
+	display:block;
+	float: left;
+	text-align: center;
+	margin-left: 40%;
+	margin-right: 40%:
+
+	
+	
+	
+}
+
+
+.social {
+	width:68%;
+	color: #ffffff;
+	float: left;
+	background-color: #f2e833;
+	color: #000000;
+	font-size:100%;
+	font-family: 'aktiv_grotesk_triallight';
+	margin-left: 11%;
+	margin-right:11%;
+	margin-bottom: 10%;
+	text-align: left;
+	top:0;
+	padding: 4%;
+	
+	
+	
+}
+	
+.title {
+	
+	font-family: 'gt_walsheim_pro_trialmedium';
+	font-size:150%;
+	margin-right: 80%;
+	margin-top:2%;
+	line-height: 10%;
+	border-bottom: 2px solid #000000;
+	
+	
+}
+	.delete {
+		display: none;
+	}
+	
+
+.facebook3 , .twitter3 , .instagram3 {
+	width: 10%;
+	display: inline-block;
+	padding-left: 13%;
+
+	
+}
+	
+.social br
+	{display: none;}
+	
+	
+}
+
+	
+
+
+
+/******************************************************************************************************************************************************************/
+
+	
+@media(max-width:480px) {
+	
+	h1.vitamin {
+		font-size: 200%;
+			float:left;
+	margin-left: 20%;
+	}
+	
+	.brunch {
+		width: 100%;
+		float:left;
+		margin-top: 28%;
+
+		
+	}
+
+	h1.articleheader {
+		font-family: 'gt_walsheim_pro_trial_regulRg';
+		font-size: 133%;
+		border-bottom: 2px solid #000000;
+		width: 92%;
+		line-height: 110%;
+		margin-top: 98%;
+
+		
+	
+	}
+	
+	.navbutton {
+		width: 7%;
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		margin-top: 7%;
+		margin-left: 4%;
+		margin-right: 0;
+	}
+	
+	.searchbutton {
+		width: 9%;
+		height: 7%;
+		z-index: 9999999;
+		float:right;
+		margin-top: 6%;
+		margin-right: 7%;
+		margin-left: 0;
+	}
+}
+
+
+
+
+
+
+
+
+
+/*
+		@media(max-width:1000px) {
+
+			div.firstsection {
+				width: 100%;
+				float: left;
+				padding:0%;
+				margin-bottom: 5%;
+			}
+
+				section.firsttext {
+					float:left;
+					bottom:0;
+					width: 45%;
+					display:inline-block;
+				}
+
+
+					h1.firstarticle {
+						margin-top: 50%;
+						font-size: 227%;
+						font-family: 'gt_walsheim_pro_trialmedium';
+						color: black;
+						line-height: 130%;
+						border-bottom: 5px solid #000000;
+						bottom: 0;
+					}
+
+				section.firstimage {
+					width: 45%;
+				}
+
+				img.firstpicture {
+					width: 55%; 
+					margin:0;
+					float:right; 
+					margin-top: 3%;
+					display:inline-block;
+				}
+				
+
+
+				______________________second section media________________
+				
+				div.secondsection {
+					width: 100%;
+					float: left;
+					padding:0%;
+					margin-top:5%;
+					overflow:hidden;
+				}
+
+				
+
+				section.secondtext {
+				width:48%;
+				float:right;
+				font-family: 'aktiv_grotesk_triallight';
+				font-size: 100%;
+				line-height: 100%;
+				
+				}
+
+
+				h2.secondarticle {
+				font-size: 233%;
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: black;
+				float:left;
+				margin-top: 10%;
+					
+				}
+
+				p.secondbodytext {
+				font-family: 'aktiv_grotesk_triallight';
+				font-size: 90%;
+				line-height: 130%;
+				text-align: left;
+				margin-top: 10%;
+		
+
+				}
+
+			}
+*/
+		
+	
+}
