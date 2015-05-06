@@ -27,7 +27,7 @@ body {
 	
 }
 
-		@media (min-width: 768px) and (max-width: 2000px) {
+		@media (min-width: 780px) and (max-width: 2000px) {
 			img.navbutton {
 			 display: none; 
 			}
@@ -366,7 +366,7 @@ footer {
 
 /******************************************************************************************************************************************************************/
 
-@media( max-width:768px) {
+@media( max-width:775px) {
 
 	
 	body {
@@ -390,31 +390,50 @@ footer {
 	
 	
 	
-	.navbutton {
-		width: 7%;
+	div.navbutton {
+		width: 23%; 
 		height: 7%;
 		z-index: 9999999;
 		float:left;
-		margin-top: 3%;
-		margin-left: 3%;
-		margin-right: 0;
+		display: inline-block;
+		padding-left: 3%;
+		
 	}
 	
-	.searchbutton {
-		width: 9%;
+	img.navbutton {
+		width: 30%; 
+		float:left;
+		margin-top:11%;
+	}
+		
+		
+	div.searchbutton {
+		width: 22%; 
 		height: 7%;
 		z-index: 9999999;
 		float:right;
-		margin-top: 3%;
-		margin-right: 6%;
-		margin-left: 0;
+		display: inline-block;
+		padding-right: 6%;
 	}
 		
 	
+	.searchbutton {
+		width: 40%;
+		float:right;
+	}
+		
+	
+	div.vitaminheader {
+		width:46%; 
+		float:left;
+		display:inline-block
+	}
+	
 	h1.vitamin {
 	font-size: 230%;
-	float:left;
-	margin-left: 25%;
+	margin-left: 20%;
+	margin-right: 20%;
+
 
 	
 		
@@ -438,6 +457,7 @@ footer {
 	.nav {
 		display: none;
 	}
+		
 		
 /*	______________________________________*/
 	
@@ -587,26 +607,27 @@ footer {
 footer {
 
 	float: left;
-	margin-top: 5%;
-	margin-left: 0;
-	margin-right:0;
-	left:0;
-	
-	
+	width:100%; 
+	margin-left:0%;
+	margin-right: 0%;
 }
+	
+	
+
 
 .about {
-	width: 68%; 
+	width: 92%; 
 	background-color: #000000;
 	float: left;
 	display:block;
-	margin-left: 11%;
-	margin-right:11%;
-	margin-bottom: 10%;
+	margin-left: 0%;
+	margin-right:0%;
+	margin-bottom: 0%;
 	color: white;
 	font-size: 80%;
 	line-height: 205.9%;
 	padding: 4%;
+	border-bottom: 2px solid #f2e833;
 
 	
 	
@@ -630,14 +651,14 @@ footer {
 
 
 .newsletter {
-	width: 68%;
+	width: 92%;
 	color: #ffffff;
 	float: left;
 	background-color: #000000;
 	font-size: 70%;
-	margin-left: 11%;
-	margin-right:11%;
-	margin-bottom: 10%;
+	margin-left: 0%;
+	margin-right:0%;
+	margin-bottom: 0%;
 	padding: 4%;
 	line-height: 245%;
 }
@@ -681,19 +702,20 @@ footer {
 
 
 .social {
-	width:68%;
+	width:92%;
 	color: #ffffff;
 	float: left;
 	background-color: #f2e833;
 	color: #000000;
 	font-size:100%;
 	font-family: 'aktiv_grotesk_triallight';
-	margin-left: 11%;
-	margin-right:11%;
-	margin-bottom: 10%;
+	margin-left: 0%;
+	margin-right:0%;
+	margin-bottom: 0s%;
 	text-align: left;
 	top:0;
 	padding: 4%;
+	
 	
 	
 }
@@ -705,6 +727,7 @@ footer {
 	margin-right: 80%;
 	margin-top:2%;
 	line-height: 10%;
+	border-bottom: 2px solid #000000;
 	
 	
 }
@@ -725,8 +748,10 @@ footer {
 	{display: none;}
 	
 	
+
 }
 
+	
 	
 
 
@@ -734,13 +759,60 @@ footer {
 /******************************************************************************************************************************************************************/
 
 	
-@media(max-width:420px) {
+@media(max-width:460px) {
+	
+	
+		div.navbutton {
+		width: 23%; 
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		display: inline-block;
+		padding-left: 4%;
+		
+	}
+	
+	img.navbutton {
+		width: 22%; 
+		float:left;
+		margin-top:25%;
+	}
+		
+		
+	div.searchbutton {
+		width: 23%; 
+		height: 7%;
+		z-index: 9999999;
+		float:right;
+		display: inline-block;
+		padding-right: 4%;
+	}
+		
+	
+	img.searchbutton {
+		width: 40%;
+		float:right;
+		margin-top: 17%;
+		margin-right:11%;
+	}
+		
+	
+	div.vitaminheader {
+		width:44%; 
+		float:left;
+		display:inline-block;
+	}
 	
 	h1.vitamin {
-		font-size: 200%;
-		float:left;
-		margin-left: 20%;
+	font-size: 141%;
+	margin-left: 20%;
+	margin-right: 20%;
+	line-height: 66%;
 	}
+	
+	
+	
+	
 	
 	.brunch {
 		width: 100%;
@@ -761,25 +833,7 @@ footer {
 
 	}
 	
-	.navbutton {
-		width: 7%;
-		height: 7%;
-		z-index: 9999999;
-		float:left;
-		margin-top: 7%;
-		margin-left: 4%;
-		margin-right: 0;
-	}
 	
-	.searchbutton {
-		width: 9%;
-		height: 7%;
-		z-index: 9999999;
-		float:right;
-		margin-top: 6%;
-		margin-right: 7%;
-		margin-left: 0;
-	}
 	
 	div.relatedposts {
 		font-family: 'gt_walsheim_pro_trial_regulRg';
