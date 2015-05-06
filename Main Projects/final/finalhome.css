@@ -24,7 +24,7 @@ body {
 	
 }
 
-		@media (min-width: 768px) and (max-width: 1400px) {
+		@media (min-width: 768px) and (max-width: 1700px) {
 			img.navbutton {
 			 display: none; 
 			}
