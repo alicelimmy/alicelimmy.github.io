@@ -473,7 +473,7 @@ footer {
 ***************************************
 *********************************************************************/
 
-@media (max-device-width:768px) {
+@media (max-width:768px) {
 
 	body {
 		width: 96%;
@@ -485,7 +485,7 @@ footer {
 	}
 		
 		.clear {
-			dispaly:none;
+			display:none;
 		}
 
 		.top {
@@ -882,7 +882,7 @@ footer {
 			float: left;
 			text-align: center;
 			margin-left: 45%;
-			margin-right: 45%:
+			margin-right: 45%;
 		}
 
 
@@ -895,7 +895,7 @@ footer {
 		font-family: 'aktiv_grotesk_triallight';
 		margin-left: 0%;
 		margin-right:0%;
-		margin-bottom: 0s%;
+		margin-bottom: 0%;
 		text-align: left;
 		top:0;
 		padding: 4%;
@@ -1110,22 +1110,22 @@ footer {
 /*mobile*/
 	
 @media(max-width:414px) {
-	
-.top {
-	padding-top:2.5%;
-	padding-bottom:2%;
-}
 
-	
-div.navbutton {
-	width: 13%; 
-	height: 7%;
-	z-index: 9999999;
-	float:left;
-	display: inline-block;
-	padding-left: 4%;
+	.top {
+		padding-top:2.5%;
+		padding-bottom:2%;
+	}
 
-}
+
+	div.navbutton {
+		width: 13%; 
+		height: 7%;
+		z-index: 9999999;
+		float:left;
+		display: inline-block;
+		padding-left: 4%;
+
+	}
 	
 	img.navbutton {
 		width: 41%; 
@@ -1133,195 +1133,195 @@ div.navbutton {
 		margin-top:10%;
 	}
 		
-	
-div.vitaminheader {
-		width:44%; 
-		float:left;
-		display:inline-block;
-	}
-	
-	h1.vitamin {
-		font-size: 118%;
-		margin-left: 23%;
-		margin-right: -22%;
-		line-height: 84%;
-	}
-	
-	span.second {
-		display:none;
-	}
-	
-/*
-**************end of header *************************************************************/	
-	
 
-		
-div.searchbutton {
-	width: 13%; 
-	height: 7%;
-	z-index: 9999999;
-	float:right;
-	display: inline-block;
-	padding-right: 4%;
-}
-		
-	
-	img.searchbutton {
-		width: 51%;
+	div.vitaminheader {
+			width:44%; 
+			float:left;
+			display:inline-block;
+		}
+
+		h1.vitamin {
+			font-size: 118%;
+			margin-left: 23%;
+			margin-right: -22%;
+			line-height: 84%;
+		}
+
+		span.second {
+			display:none;
+		}
+
+	/*
+	**************end of header *************************************************************/	
+
+
+
+	div.searchbutton {
+		width: 13%; 
+		height: 7%;
+		z-index: 9999999;
 		float:right;
-		margin-top: -15%;
-		margin-right:11%;
-	}
-		
-	
-/*	***********************************section one********************/
-	
-	section.firsttext {
-		width: 100%;
-	}
-	
-		
-	img.mobilefirstpicture {
-		display:block;
-		width:100%;
-		margin-top: 3.5%;
-
-	}
-	
-	.brunch {
-		width: 100%;
-		float:left;
-		margin-top: 28%;
-
-		
+		display: inline-block;
+		padding-right: 4%;
 	}
 
-	h1.firstarticle {
-		font-family: 'gt_walsheim_pro_trialmedium';
-		font-size: 128%;
-		border-bottom: 2px solid #000000;
-		width: 96%;
-		line-height: 110%;
-		margin-top: 4%;
 
-	}
-	
-	.mediadata {
-		font-size: 94%;
-	}
-	
-/*****************************section two******************	*/
-
-h2.secondarticle {
-  font-size: 152%;
-}
-	
-p.secondbodytext {
-  font-family: 'aktiv_grotesk_triallight';
-  font-size: 60%;
-  line-height: 160%;
-  text-align: right;
-  margin-top: 14%;
-}
-	
-/*****************************section three******************	*/	
-h2.thirdarticle {
-  font-size: 152%;
-}
-	
-p.thirdbodytext {
-  font-family: 'aktiv_grotesk_triallight';
-  font-size: 72%;
-  line-height: 160%;
-  text-align: left;
-  margin-top: 4%;
-  display: inline-block;
-}
-	
-/*****************************section four******************	*/		
-	
-h2.fourtharticle {
-	margin-bottom:0%;
-	font-size:144%;
-}
-	
-h3.fourtharticlecaption {
-	margin-top: 1%;
-}
-	
-/*___________________________start of footer ___________________________________________*/
-	div.about {
-		width: 92%; 
-		background-color: #000000;
-		float: left;
-		display:block;
-		margin-left: 0%;
-		margin-right:0%;
-		margin-bottom: 0%;
-		color: white;
-		line-height: 245.9%;
-		padding: 4%;
-		border-bottom: 2px solid #f2e833;
+		img.searchbutton {
+			width: 51%;
+			float:right;
+			margin-top: -15%;
+			margin-right:11%;
 		}
 
-		.aboutheader { 
+
+	/*	***********************************section one********************/
+
+		section.firsttext {
+			width: 100%;
+		}
+
+
+		img.mobilefirstpicture {
+			display:block;
+			width:100%;
+			margin-top: 3.5%;
+
+		}
+
+		.brunch {
+			width: 100%;
+			float:left;
+			margin-top: 28%;
+
+
+		}
+
+		h1.firstarticle {
 			font-family: 'gt_walsheim_pro_trialmedium';
-			color: #f2e833;
-			font-size:180%;
-		}
-
-
-		.aboutlinks {
-			color: #f2e833;
-			font-size:110%;
-			padding-right:15%;
-			text-align: center;
-		}
-	
-	
-	
-	
-	
-	.social {
-		width:92%;
-		color: #ffffff;
-		float: left;
-		background-color: #f2e833;
-		color: #000000;
-		font-family: 'aktiv_grotesk_triallight';
-		margin-left: 0%;
-		margin-right:0%;
-		margin-bottom: 0s%;
-		text-align: left;
-		top:0;
-		padding: 4%;
-		line-height: 220%;
-	}
-
-		.title {
-			font-family: 'gt_walsheim_pro_trialmedium';
-			font-size:180%;
-			margin-right: 80%;
-			margin-top:2%;
-			line-height: 10%;
+			font-size: 128%;
 			border-bottom: 2px solid #000000;
-		}
-	
+			width: 96%;
+			line-height: 110%;
+			margin-top: 4%;
 
-		.facebook3 , .twitter3 , .instagram3 {
-			width: 6%;
-			display: inline-block;
-			margin-top:3%;
-			padding-right: 20%;
 		}
 
-			span.delete {
-				margin-bottom: 0;
+		.mediadata {
+			font-size: 94%;
+		}
+
+	/*****************************section two******************	*/
+
+	h2.secondarticle {
+	  font-size: 152%;
+	}
+
+	p.secondbodytext {
+	  font-family: 'aktiv_grotesk_triallight';
+	  font-size: 60%;
+	  line-height: 160%;
+	  text-align: right;
+	  margin-top: 14%;
+	}
+
+	/*****************************section three******************	*/	
+	h2.thirdarticle {
+	  font-size: 152%;
+	}
+
+	p.thirdbodytext {
+	  font-family: 'aktiv_grotesk_triallight';
+	  font-size: 72%;
+	  line-height: 160%;
+	  text-align: left;
+	  margin-top: 4%;
+	  display: inline-block;
+	}
+
+	/*****************************section four******************	*/		
+
+	h2.fourtharticle {
+		margin-bottom:0%;
+		font-size:144%;
+	}
+
+	h3.fourtharticlecaption {
+		margin-top: 1%;
+	}
+
+	/*___________________________start of footer ___________________________________________*/
+		div.about {
+			width: 92%; 
+			background-color: #000000;
+			float: left;
+			display:block;
+			margin-left: 0%;
+			margin-right:0%;
+			margin-bottom: 0%;
+			color: white;
+			line-height: 245.9%;
+			padding: 4%;
+			border-bottom: 2px solid #f2e833;
 			}
 
-	/*___________________________end of footer ___________________________________________*/
-	
-	
+			.aboutheader { 
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: #f2e833;
+				font-size:180%;
+			}
+
+
+			.aboutlinks {
+				color: #f2e833;
+				font-size:110%;
+				padding-right:15%;
+				text-align: center;
+			}
+
+
+
+
+
+		.social {
+			width:92%;
+			color: #ffffff;
+			float: left;
+			background-color: #f2e833;
+			color: #000000;
+			font-family: 'aktiv_grotesk_triallight';
+			margin-left: 0%;
+			margin-right:0%;
+			margin-bottom: 0s%;
+			text-align: left;
+			top:0;
+			padding: 4%;
+			line-height: 220%;
+		}
+
+			.title {
+				font-family: 'gt_walsheim_pro_trialmedium';
+				font-size:180%;
+				margin-right: 80%;
+				margin-top:2%;
+				line-height: 10%;
+				border-bottom: 2px solid #000000;
+			}
+
+
+			.facebook3 , .twitter3 , .instagram3 {
+				width: 6%;
+				display: inline-block;
+				margin-top:3%;
+				padding-right: 20%;
+			}
+
+				span.delete {
+					margin-bottom: 0;
+				}
+
+		/*___________________________end of footer ___________________________________________*/
+
+
 }
 
 
