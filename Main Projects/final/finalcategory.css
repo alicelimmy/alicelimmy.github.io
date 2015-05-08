@@ -18,7 +18,6 @@ body {
 	padding-bottom: 0%;
 	background-color: white;
 	float: left;
-	padding-left: 2%;
 	color: black;
 	
 	
@@ -29,24 +28,21 @@ body {
 			 display: none; 
 			}
 
-			img.searchbutton {
+			img.searchbutton , .logoblack , .navbutton {
 				display: none; 
 			}
+			
 		}
 
-h1.vitamin {
-	font-size: 280%;
-	line-height: 45%;
-	margin-bottom: 3.5%;
-	
+div.vitaminheader {
+	width:25%;
+}
 
+img.logowhite {
+width: 100%;
 }
 
 
-span.second {
-	font-size: 30%;
-	font-family: 'aktiv_grotesk_triallight';
-}
 
 /*________________________________________nav___________*/
 
@@ -62,20 +58,22 @@ nav {
 	height: 4%;
 	float: left;
 	z-index: 0;
+	margin-bottom: 3%;
 	
 }
 
 .subscribe {
-	width: 15.57%;
+	width: 13.57%;
 	height: 15%;
-	float:right;
-	padding-left: 1%;
+	float:left;
+
+
 	
 }
 
 .facebook , .twitter , .instagram {
 	width: 2.7%;
-	padding: .5%;
+	padding-right: 1.5%;
 	padding-top:.8%;
 	height: 6%;
 	float:right;
@@ -117,7 +115,6 @@ li {
 
 
 
-
 /*_______________________________________first section___________*/
 
 header.recipe {
@@ -135,13 +132,10 @@ header.recipe {
 h1.newrecipe {
 	width:100%;
 	font-family: 'gt_walsheim_pro_trialmedium';
-	line-height: 110%;
-	font-size: 230%;
+	line-height: 80%;
+	font-size: 210%;
 	float: left; 
-	background: #f2e833;
-	padding-top:2%;
-	padding-bottom:.8%;
-	padding-left: 2%;
+	border-bottom:4px solid #f2e833;
 	
 	
 }
@@ -157,7 +151,7 @@ div.secondsection {
 }
 
 	section.secondimage , section.fourthimage{
-		width:50%;
+		width:30%;
 		float:left;
 		display:inline-block;
 	}
@@ -168,23 +162,27 @@ div.secondsection {
 		}
 			
 	section.secondtext , section.fourthtext {
-		width:50%;
-		float:right;
+		width:70%;
+		float:left;
 		display:inline-block;
 		
 	}
 		h3.secondtitle , h3.fourthtitle {
 			font-family: 'gt_walsheim_pro_trial_regulRg';
-			font-size:  218%;
+			font-size:  168%;
 			float:left; 
 			bottom:0;
-			line-height: 129%;
-			padding-top: 18%;
-			padding-left: 4%;
+			padding-left: 3%;
+			margin-right: 17%;
 			}
+	p.bodytext {
+		font-size: 76%;
+		padding:1%;
+		padding-left: 3%;
+	}
 
 	h3.fourthtitle {
-			padding-top: 11%;
+			line-height: 120%;
 			}
 	
 	/*_______________________________________third section___________*/	
@@ -200,7 +198,7 @@ div.thirdsection{
 }
 
 	section.thirdimage {
-		width:50%;
+		width:30%;
 		float:right;
 		display:inline-block;
 	}
@@ -211,35 +209,38 @@ div.thirdsection{
 		}
 			
 	section.thirdtext {
-		width:50%;
-		float:left;
+		width:65%;
+		float:right;
 		display:inline-block;
+		text-align: right;
 		
 	}
+
+
 		h3.thirdtitle  {
 			font-family: 'gt_walsheim_pro_trial_regulRg';
-			font-size: 203%;
+			font-size:  150%;
 			float:right; 
 			bottom:0;
-			text-align: right;
-			line-height: 129%;
-			padding-top: 11%;
-			padding-right: 4%;
+			padding-right: 3%;
 			}
+		
+		p.bodytext2 {
+			font-size: 76%;
+			padding:1%;
+			padding-right: 3%;
+		}
 
 /*________________________top viewed section___________*/
 
 h2.topview {
 	width:100%;
 	font-family: 'gt_walsheim_pro_trialmedium';
-	line-height: 110%;
-	font-size: 197%;
+	font-size: 180%;
 	float: left; 
-	background: #f2e833;
 	padding-top:2%;
-	padding-bottom:.8%;
-	padding-left: 2%;
 	margin-top: 8%;
+	border-bottom:4px solid #f2e833;
 	
 	
 }
@@ -400,7 +401,7 @@ footer {
 	}
 		
 		.clear {
-			dispaly:none;
+			display:none;
 		}
 
 		.top {
@@ -418,16 +419,16 @@ footer {
 		}
 
 			div.navbutton {
-				width: 18%; 
+				width: 30%; 
 				float:left;
 				display:inline-block;
-				padding-left: 3%;
+				padding-left: 5%;
 			}
 
 				img.navbutton {
-					width: 20%; 
+					width: 15%; 
 					float:left;
-					margin-top:18%;
+					padding-top:10%;
 				}
 	
 				
@@ -436,60 +437,81 @@ footer {
 				}
 
 	
-			div.vitaminheader {
-				width:50%; 
-				float:left;
-				display:inline-block;
-			
+			img.logowhite {
+				display:none;
 			}
-
-				h1.vitamin {
-				font-size: 230%;
-				text-align:center;
-				line-height: 56%;
-				padding-left:14%;
-				}
-
+	
+			img.logoblack {
+				width:100%;
+				
+			}
+	
+			div.vitaminheader {
+				width:30%;
+				display:inline-block;
+			}		
 
 			div.searchbutton {
-				width: 23%; 
+				width: 30%; 
 				float:right;
 				display: inline-block;
+				padding-right: 4%;
 				
 			}
 
 
-				.searchbutton {
+				img.searchbutton {
 					width: 20%;
 					float:right;
-					padding-right: 5%;
-					margin-top:2.5%;
+					padding-top:10%;
 				}
 
 
 /*	_________first section start_____________________________/*/
 	
 	h1.newrecipe {
-  	width: 98%;
+  	width: 32%;
 		
 	}
 	
-	h3.secondtitle {
-		font-size: 177%;
-	}
+		section.secondimage , section.thirdimage , section.fourthimage {
+			width: 100%;
+		}
+		
 	
-	h3.thirdtitle {
-		font-size: 177%;
-	}
+		section.secondtext , section.thirdtext , section.fourthtext {
+			width: 100%;
+		}
 	
-	h3.fourthtitle {
-		font-size: 177%;
-	}
+		h3.secondtitle , h3.thirdtitle , h3.fourthtitle {
+			font-size: 200%;
+			margin-right:20%;
+		}
+		
+		h3.thirdtitle {
+			margin-right: 0%;
+		}
+
+
+	
+		p.bodytext , p.bodytext2 {
+			font-size: 100%;
+		}
+	
 	
 	h2.topview {
-  	width: 98%;
-		
+	width: 58%;
+
 	}
+		img.topviewpics{
+		width: 19%;
+		height: 10%;
+		float:left;
+		padding-right: 1%;
+		display: inline-block;
+		opacity: 1
+
+		}
 	
 	
 	
@@ -624,7 +646,15 @@ footer {
 
 @media(max-width:1024px) and (min-width: 769px) {
 	
-	
+	img.topviewpics{
+		width: 19%;
+		height: 10%;
+		float:left;
+		padding-right: 1%;
+		display: inline-block;
+		opacity: 1
+
+		}
 	
 /*********************footer start ********************************************************/	
 	
@@ -744,65 +774,7 @@ footer {
 	
 @media(max-width:414px) {
 	
-.top {
-	padding-top:2.5%;
-	padding-bottom:2%;
-}
 
-	
-div.navbutton {
-	width: 13%; 
-	height: 7%;
-	z-index: 9999999;
-	float:left;
-	display: inline-block;
-	padding-left: 4%;
-
-}
-	
-	img.navbutton {
-		width: 41%; 
-		float:left;
-		margin-top:10%;
-	}
-		
-	
-div.vitaminheader {
-		width:44%; 
-		float:left;
-		display:inline-block;
-	}
-	
-	h1.vitamin {
-		font-size: 118%;
-		margin-left: 23%;
-		margin-right: -22%;
-		line-height: 84%;
-	}
-	
-	span.second {
-		display:none;
-	}
-	
-
-
-		
-div.searchbutton {
-	width: 13%; 
-	height: 7%;
-	z-index: 9999999;
-	float:right;
-	display: inline-block;
-	padding-right: 4%;
-}
-		
-	
-	img.searchbutton {
-		width: 51%;
-		float:right;
-		margin-top: -15%;
-		margin-right:11%;
-	}
 		
 /*
 **************end of header *************************************************************/	
@@ -811,50 +783,22 @@ div.searchbutton {
 	
 	
 	h1.newrecipe {
-  	width: 98%;
-	font-size:157%;
-	padding-top:3%;
+  	width: 55%;
+	font-size:138%;
+	padding-top:0%;
 		
 	}
-	
-	section.secondimage {
-		width:100%;
-	}
-	
-	section.secondtext {
-		width:100%;
-	}
-	
-	h3.secondtitle {
-		font-size: 105%;
-		display: block;
-		float: left;
-		margin-top: 5%;
-		padding-top: 0;
-		padding-left: 0;
-		margin-bottom: 1%;
-	}
-	
-	
-	section.thirdimage {
-		width:100%;
-		float:left;
-	}
-	
-	section.thirdtext {
-		width:100%;
-		float:right;
-	}
-	
-	h3.thirdtitle {
-		font-size: 105%;
-		display: block;
-		float: left;
-		margin-top: 5%;
-		padding-top: 0;
-		padding-left: 0;
-		margin-bottom: 1%;
-	}
+		h3.secondtitle , h3.thirdtitle , h3.fourthtitle {
+			font-size: 135%;
+			display: block;
+			margin-top: 5%;
+			padding-top: 0;
+			margin-bottom: 1%;
+			line-height: 130%;
+			padding-left: 3%;
+		}
+
+
 	
 	h2.topview   {
   	width: 98%;
@@ -863,27 +807,10 @@ div.searchbutton {
 	padding-top:3%;
 		
 	}
-	
-	
-	section.fourthimage {
-		width:100%;
+
+	p.bodytext , p.bodytext2 {
+		font-size: 50%;
 	}
-	
-	section.fourthtext {
-		width:100%;
-	}
-	
-	h3.fourthtitle {
-		font-size: 105%;
-		display: block;
-		float: left;
-		margin-top: 5%;
-		padding-top: 0;
-		padding-left: 0;
-		margin-bottom: 1%;
-	}
-	
-	
 	
 	
 	
