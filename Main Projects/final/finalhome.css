@@ -1,8 +1,5 @@
-
 html {
-		
-		font-family: 'aktiv_grotesk_triallight';
-		
+		font-family: 'aktiv_grotesk_triallight';	
 	}
 
 body {
@@ -20,11 +17,11 @@ body {
 	background-color: white;
 	float: left;
 	color: black;
-	
-	
 }
 
-		@media (min-width: 769px) and (max-width: 2000px) {
+/*_____To get rid of Nav/search button on web view___*/
+
+		@media (min-width: 769px) and (max-width: 2400px) {
 			img.navbutton {
 			 display: none; 
 			}
@@ -43,130 +40,124 @@ body {
 			
 		}
 
+
 div.vitaminheader {
 	width:25%;
 }
 
 img.logowhite {
-width: 100%;
+	width: 100%;
 }
 
 
 
-/*________________________________________nav___________*/
+/*____________________________________yellow____nav_bar__________*/
 
 .nav {
 	width:100%;
-	
 }
 
-nav {
-	width:100%;
-	background-color: #f2e833;
-	width: 100%;
-	height: 4%;
-	float: left;
-	z-index: 0;
-	margin-bottom: 3%;
-	
-}
-
-.subscribe {
-	width: 13.57%;
-	height: 15%;
-	float:left;
-
-
-	
-}
-
-.facebook , .twitter , .instagram {
-	width: 2.7%;
-	padding-right: 1.5%;
-	padding-top:.8%;
-	height: 6%;
-	float:right;
-	
-}
-
-
-.news , .recipes ,  .events , .favorites { 	
+	nav {
+		width:100%;
+		background-color: #f2e833;
+		width: 100%;
+		height: 4%;
 		float: left;
-		width: 10.1%;
-		height: 10%;
+		z-index: 0;
+		margin-bottom: 3%;
 	}
 
-.divider {
-	float: left; 
-	width: 3%;
-	height: 4%;
-	}
 
-.home{ 
-	float: left;
-	width: 5%;
-	height: 10%;
-	}
+		.home { 
+			float: left;
+			width: 5%;
+			height: 10%;
+		}
+		
+		.news , .recipes ,  .events , .favorites { 	
+			float: left;
+			width: 10.1%;
+			height: 10%;
+		}
 
- .search { 
-	float: left;
-	width: 28%;
+		.subscribe {
+			width: 13.57%;
+			height: 15%;
+			float:left;
+		}
 
-	}
+		.divider {
+			float: left; 
+			width: 3%;
+			height: 4%;
+		}
+		
+		.search { 
+			float: left;
+			width: 28%;
+		}
+				button#search2 { 
+					background-color:  #f2e833;
+					border:none;
+					text-decoration:none;
+					display: block;
+					width:18%;	
+				}
 
-.clear {
-	clear: both;
-}
+				div#searchbar2 {
+				  float: right;
+				  display: inline-block;
+				  z-index: 100;
+				  position: absolute;
+				  color: white;
+				  transition: all .1s;
+				  width: 0%;
+				  height: 9%;
+				  margin-top: -2.8%;
+				  right: -19%;
+				  overflow: hidden;
+				  right: 19%;
+				}
 
-li {
-	display: inline;
-}
+				div#searchbar2.show {
+				 	width:11%;
+				}
 
+				input.searchbox2 {
+				  border: 1px solid white;
+				  padding-left: 8%;
+				  color: black;
+				  font-size: 80%;
+				  background-color: #f2e833;
+				  width: 92%;
+				  border: 0;
+				  float: right;
+				  padding: 1%;
+				  font-family: 'aktiv_grotesk_triallight';
+				  border: 1px solid black;
+					}
 
-button#search2 { 
-		background-color:  #f2e833;
-		border:none;
-		text-decoration:none;
-		display: block;
-		width:18%;	
-	}
-	
-	div#searchbar2 {
-	  float: right;
-	  display: inline-block;
-	  z-index: 100;
-	  position: absolute;
-	  color: white;
-	  transition: all .1s;
-	  width: 0%;
-	  height: 9%;
-	  margin-top: -2.8%;
-	  right: -19%;
-	  overflow: hidden;
-	  right: 19%;
-	}
-	
-	
-input.searchbox2 {
-  border: 1px solid white;
-  padding-left: 8%;
-  color: black;
-  font-size: 80%;
-  background-color: #f2e833;
-  width: 92%;
-  border: 0;
-  float: right;
-  padding: 1%;
-  font-family: 'aktiv_grotesk_triallight';
-  border: 1px solid black;
-	}
-	
-	div#searchbar2.show {
-		width:11%;
-	}
+			
 
+		.facebook , .twitter , .instagram {
+			width: 2.7%;
+			padding-right: 1.5%;
+			padding-top:.8%;
+			height: 6%;
+			float:right;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		li {
+			display: inline;
+		}
 
 /*_______________________________________end_nav___________*/
+/*__________________________________________________*/
+/*__________________________________________________*/
 
 
 
@@ -177,7 +168,7 @@ div.firstsection {
 	float: left;
 	padding:0%;
 	margin-top: 3%;
-	
+	border-bottom: 4px solid #000000;
 }
 
 	section.firsttext {
@@ -185,25 +176,27 @@ div.firstsection {
 		bottom:0;
 		width: 45%;
 		display:block;
-
-
 	}
 
 		h1.firstarticle {
-			margin-top: 28%;
-			font-size: 300%;
+			font-size: 220%;
 			font-family: 'gt_walsheim_pro_trialmedium';
 			color: black;
 			line-height: 130%;
-			border-bottom: 4px solid #000000;
+			border-bottom: 4px solid #f2e833;
 			bottom: 0;
-			
+			margin-top:36%;
+			margin-bottom:0;
+		}
+
+		p.firstbodytext {
+			font-size: 90%;
+			line-height:150%;
 		}
 
 		.mediadata {
-		display:none;
-			
-	}
+			display:none;		
+		}
 		
 		a.firstlink {
 			text-decoration:none;
@@ -216,16 +209,16 @@ div.firstsection {
 		bottom:0;
 	}
 
-	img.firstpicture {
-		width: 100%; 
-		margin:0;
-		float:right; 
-		margin-top: 3%;
-	}
+		img.firstpicture {
+			width: 120%; 
+			margin:0;
+			float:right; 
+			margin-top: 0;
+		}
 
-	img.mobilefirstpicture {
-		display: none;
-	}
+		img.mobilefirstpicture {
+			display: none;
+		}
 
 	
 
@@ -244,6 +237,7 @@ div.secondsection {
 	padding:0%;
 	margin-top:5%;
 	overflow:hidden;
+	border-bottom: 4px solid #000000;
 }
 
 	img.secondpicture {
@@ -260,8 +254,7 @@ div.secondsection {
 		float:right;
 		font-family: 'aktiv_grotesk_triallight';
 		font-size: 100%;
-		line-height: 100%;
-		border-bottom: 4px solid #000000;
+		line-height: 110%;
 		
 	}
 
@@ -271,14 +264,13 @@ div.secondsection {
 			color: black;
 			float:left;
 			margin-top: 25%;
-			
 		}
 
 
 		p.secondbodytext {
 			font-family: 'aktiv_grotesk_triallight';
 			font-size: 90%;
-			line-height: 130%;
+			line-height: 150%;
 			text-align: left;
 			margin-top: 35%;
 		
@@ -296,6 +288,7 @@ div.thirdsection {
 	padding:0%;
 	margin-top:5%;
 	overflow:hidden;
+	border-bottom: 4px solid #000000;
 }
 
 	img.thirdpicture {
@@ -312,8 +305,8 @@ div.thirdsection {
 		float:left;
 		font-family: 'aktiv_grotesk_triallight';
 		font-size: 100%;
-		line-height: 100%;
-		border-bottom: 4px solid #000000;
+		line-height: 110%;
+		
 		
 
 	}
@@ -325,13 +318,12 @@ div.thirdsection {
 			color: black;
 			float:right;
 			margin-top: 33%;
-			
 		}
 
 		p.thirdbodytext {
 			font-family: 'aktiv_grotesk_triallight';
 			font-size: 90%;
-			line-height: 130%;
+			line-height: 150%;
 			text-align: right;
 			margin-top: 42%;
 		
@@ -365,7 +357,6 @@ div.fourthsection {
 			font-family: 'gt_walsheim_pro_trial_regulRg';
 			font-size: 207%;
 			display: block;
-			
 			line-height: 50%;
 		}
 
@@ -375,7 +366,7 @@ div.fourthsection {
 			font-family: 'aktiv_grotesk_triallight';
 			font-size: 95%;
 			display:block;
-			border-bottom: 4px solid #000000;
+			border-bottom: 4px solid #f2e833;
 
 		}
 
@@ -404,6 +395,8 @@ div.fourthsection {
 /*_______________________________________fourth section __end ________*/
 
 /*_______________________________________footer_____start_____*/
+/*___________________________________________*/
+/*____________________________________________*/
 
 
 footer {
@@ -474,7 +467,14 @@ footer {
 				display:block;
 				margin-bottom:2%;
 
-
+			}
+		
+			div#result {
+				margin-left:20%;
+				color:white;
+				font-size: 130%;
+				font-family:'gt_walsheim_pro_trial_regulRg';
+				display:inline-block;
 			}
 
 			.submit {
@@ -486,7 +486,7 @@ footer {
 				float: left;
 				padding: 2%;
 				text-align: center;
-				margin-left: 3%;
+				
 
 
 			}
@@ -525,88 +525,87 @@ footer {
 
 @media (max-width:768px) {
 	
-	div#hamburger {
+div#hamburger {
 		margin-top:12%;
 		width:30%;
 		margin-right:0%;
-		border: 2px solid #f2e833;
+		border-top: 2px solid #f2e833;
 		left:-32%;
 		position:absolute;
 		z-index:100;
 		transition: all .1s;
 		background-color: black;
 		color:white;
+		text-align:left;
 		
-	
 }
 
-li.hamburger {
-	display:block;
-	font-size: 160%;
-	line-height: 200%;
-}
+	li.hamburger {
+		display:block;
+		font-size: 150%;
+		line-height: 220%;
+		font-family: 'gt_walsheim_pro_trialmedium';
+		text-decoration: none;
+		color:white;
+	}
 
 	button#navigation {
 		background-color: black;
 		border:none;
-		
 	}
 
 	
-div#hamburger.show {
-	left:0;
-}
-/*	________________________________*/
+	div#hamburger.show {
+		left:0;
+	}
 	
+/*	_______search_________________________*/
+	
+div#searchbar {
+	float:right;
+	display: inline-block;
+	z-index:100;
+	position:absolute;
+	color:white;
+	background-color:black;
+	width:0%;
+	transition: all .1s;
+	top:60%;
+	right:3%;
+	margin-top:5%:
+	
+}	
 	
 	button#search { 
 		background-color: black;
 		border:none;
 		float:right;
 		display:block;
-		
-		
 	}
-	
-	div#searchbar {
-		float:right;
-		display: inline-block;
-		top:-17%;
-		z-index:100;
-		position:absolute;
-		border: 2px solid white;
-		color:white;
-		background-color:black;
-		width:55%;
-		transition: all .1s;
-		right:1%;
-		
-	
-	}
-	
-	
+
 	input.searchbox {
 		border: 1px solid white;
 		padding-left:7%;
-		
+		padding: 2%;
 		color:white;
 		font-size: 160%;
 		background-color:black;
 		width:90%;
 		border:0;
+		font-family: 'aktiv_grotesk_triallight';
 	}
 	
 	div#searchbar.show {
-		top:23.5%;
-		right:1%;
+		top:100%;
+		right:3%;
+		width:55%;
+		margin-top:5%:
 	}
 	
 	
-/*	-------------------------------*/
+/*	--------------------main body-----------*/
 	
-	
-
-	body {
+body {
 		width: 96%;
 		margin-left: 2%;
 		margin-right: 2%;
@@ -689,7 +688,7 @@ div#hamburger.show {
 	float: left;
 	padding:0%;
 	margin-top: 10%;
-	
+	border-bottom: none;
 }
 
 
@@ -738,7 +737,7 @@ div#hamburger.show {
 			font-size: 140%;
 			float: left;
 			color: #f2e833;
-			margin-top:-2%;
+			margin-top:2%;
 		}
 	
 		h1.firstarticle br{display:none;}
@@ -746,6 +745,10 @@ div#hamburger.show {
 		
 		a.firstlink {
 			text-decoration:none;
+		}
+		
+		p.firstbodytext{
+			display:none;
 		}
 
 /*	______second section_____________________*/
@@ -756,6 +759,7 @@ div#hamburger.show {
 	padding:0%;
 	margin-top:8%;
 	overflow:hidden;
+	border-bottom: none;
 		
 }
 
@@ -814,6 +818,7 @@ div.thirdsection {
 	padding:0%;
 	margin-top:4%;
 	overflow:hidden;
+	border-bottom: none;
 }
 
 	img.thirdpicture {
@@ -1014,6 +1019,16 @@ footer {
 			margin-left: 45%;
 			margin-right: 45%;
 		}
+		
+		div#result {
+				margin:auto;
+				color:white;
+				font-size: 150%;
+				font-family:'aktiv_grotesk_triallight';
+				display:block;
+				margin-top:1%;
+			
+			}
 
 
 	.social {
@@ -1141,7 +1156,6 @@ footer {
 				float: left;
 				padding: 2%;
 				text-align: center;
-				margin-left: 3%;
 
 
 			}
@@ -1181,6 +1195,17 @@ footer {
 		float:right; 
 		margin-top: 3%;
 	}
+	
+	h1.firstarticle {
+		margin-top:18%;
+		font-size:191%;
+	}
+	
+	p.firstbodytext {
+		margin-top:0;
+		margin-bottom:0;
+	}
+		
 	
 	
 /*******second section************************************************/	
@@ -1229,6 +1254,13 @@ footer {
 		}
 	
 	
+/*******FOOTER************************************************/		
+/*******FOOTER************************************************/		
+/*******FOOTER************************************************/	
+
+	.newsletter {
+		line-height: 183.8%;
+	}
 	
 	
 	
@@ -1242,8 +1274,48 @@ footer {
 @media(max-width:414px) {
 
 
+div#hamburger {
+	width:30%;
+	padding-left:0;
+	
+}
+	
+li.hamburger {
+		display:block;
+		font-size: 60%;
+		line-height: 250%;
+		font-family: 'gt_walsheim_pro_trialmedium';
+		text-decoration: none;
+		color:white;
+		margin-left:0;
+		
+	
+	}
 
+ul.hamburger {
+	
+	padding-left:18%;
+}
+	
+	li#subscribecolor {
+		color:#f2e833;
+	}
 
+input.searchbox {
+	font-size: 41%;
+}
+
+div.searchbutton {
+	width: 30%; 
+	float:right;
+	display: inline-block;
+	padding-right: 4%;
+
+}
+
+div#searchbar.show {
+	width:45%;
+}
 	
 
 	/*	***********************************section one********************/
@@ -1314,6 +1386,9 @@ footer {
 	}
 
 	/*___________________________start of footer ___________________________________________*/
+	/*___________________________start of footer ___________________________________________*/
+		/*___________________________start of footer ___________________________________________*/
+	
 		div.about {
 			width: 92%; 
 			background-color: #000000;
@@ -1343,7 +1418,13 @@ footer {
 			}
 
 
-
+		.submit {
+			margin-left: 40%;
+		}
+		
+		div#result {
+			margin-top:5%;
+		}
 
 
 		.social {

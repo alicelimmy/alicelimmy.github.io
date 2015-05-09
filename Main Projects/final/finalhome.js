@@ -36,9 +36,9 @@ $(
 				url: url,
 				cache: false,
 				dataType: "json",
-				success: function(data){
+				complete: function(data){
 				
-					$("#result").html("Thank You!");	
+					$("#result").html("THANK YOU!");	
 				
 					
 				}
@@ -52,8 +52,9 @@ $(
 		
 		$(".submit").click(function(){
 			if($("#newsletterform").val() == "") {
-				$("#result").html("Oh Noez!");	
+				$("#result").html("Uh Oh, Please Fill In a Full Email");	
 				return;
+				$("#result").css({"color":"red"});
 			}
 		 	requestFile("data.json");
 	}
