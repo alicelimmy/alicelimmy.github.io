@@ -21,26 +21,46 @@
 
  
 <body>
+	
+	
+			<div id="hamburger">
+		
+				<ul>
+					<li class="hamburger">Home</li>
+					<li class="hamburger">News</li>
+					<li class="hamburger">Recipe</li>
+					<li class="hamburger">Events</li>
+					<li class="hamburger">Subscribe</li>
+				</ul>
+			
+			</div>
+	
+			<div id="searchbar">
+				<input type="text" placeholder="What are you in the mood for?" class="searchbox"> </input>
+			</div>
+	
+	
 	<div class="top">
+		
 	
 				
 		
-				<div class= navbutton>
-					<a href="finalarticle.html">
+				<div class= navbutton><button id="navigation">
 						<img  class= "navbutton" src=images/navbutton.gif>
-					</a>
-				</div>
+				</button></div>
 		
 				<div class= vitaminheader>
 					<img class="logowhite" src=images/logowhite.jpg> 
 					<img class="logoblack" src=images/logoblack.jpg> 
 				</div>	
 		
-				<div class= searchbutton>
-					<a href="finalarticle.html">
+				<div class= searchbutton><button id="search">
+					
 						<img class= "searchbutton" src=images/searchbutton.gif>
-					</a>
+					</button>
 				</div>
+		
+		
 		
 		
 	</div>
@@ -52,26 +72,53 @@
 			<div class= "nav"> 
 
 					<nav> 
+						<a href ="finalhome.html" class="firstlink" >
 						<li><img class="home" src=images/home.gif> </li>
+						</a>
 						<li><img class="divider" src=images/divider.gif> </li>
+						<a href ="finalcategorynews.html" class="firstlink" >
 						<li><img class="news" src=images/news.gif> </li>
+						</a>
 						<li><img class="divider" src=images/divider.gif> </li>
-						<a href ="finalcategory.html" class="firstlink" >
-						<li><img class="recipes" src=images/recipes.gif> </li></a>
+						<a href ="finalcategoryrecipe.html" class="firstlink" >
+						<li><img class="recipes" src=images/recipes.gif> </li>
+						</a>
 						<li><img class="divider" src=images/divider.gif> </li>
+						<a href ="finalcategoryfavorites.html" class="firstlink" >
 						<li><img class="favorites" src=images/favorites.gif> </li>
+						</a>
 						<li><img class="divider" src=images/divider.gif> </li>
+						<a href ="finalcategoryevents.html" class="firstlink" >
 						<li><img class="events" src=images/events.gif> </li>
+						</a>
 						<li><img class="divider" src=images/divider.gif> </li>
-						<li><img class="subscribe" src=images/subscribe.gif></li>
+						
+						<li><a href=#signup class="bottom"><img class="subscribe" src=images/subscribe.gif></li></a>
+						
 						<li><img class="divider" src=images/divider.gif> </li>
-						<li><img class="search" src=images/search.gif> </li>
+				
+				
+						
+						<li>
+						<button id="search2"><img class="search" src=images/search.gif> 							</button></li>
+		
+							
+<!--
 						
 						<li><img class="facebook" src=images/facebook.gif></li> 
 						<li><img class="instagram" src=images/instagram.gif></li> 
 						<li><img class="twitter" src=images/twitter.gif></li> 
+-->
 						
+				
+						<div id="searchbar2">
+					<input type="text" placeholder="Search Here" 	class="searchbox2"></input>	
+				</div>
+	
 					</nav>
+
+				
+				
 					
 				
 					
@@ -119,12 +166,12 @@
 	
 	<div class= "secondsection">
 		
-		<img class="secondpicture" src= "images/secondpicture.jpg">
+		<a href ="finalcategoryrecipe.html" class="firstlink" ><img class="secondpicture" src= "images/secondpicture.jpg"></a>
 		
 		
 		<section class="secondtext">
 
-				<a href ="finalcategory.html" class="firstlink" ><h2 class="secondarticle">
+				<a href ="finalcategoryrecipe.html" class="firstlink" ><h2 class="secondarticle">
 					RECIPES
 				</h2> </a>
 				<br>
@@ -147,13 +194,13 @@
 
 	<div class= "thirdsection">
 		
-		<img class="thirdpicture" src= "images/thirdpicture.jpg">
+		<a href ="finalcategorynews.html" class="firstlink"><img class="thirdpicture" src= "images/thirdpicture.jpg"></a>
 		
 		<section class="thirdtext">
 
-				<h2 class="thirdarticle">
+				<a href ="finalcategorynews.html" class="firstlink"><h2 class="thirdarticle">
 					NEWS
-				</h2>
+					</h2></a>
 				<br>
 			<p class="thirdbodytext">
 
@@ -171,7 +218,7 @@
 
 	<div class= "fourthsection">
 
-		<section class ="fourthtext">
+		<a href ="finalcategorynews.html" class="firstlink"><section class ="fourthtext">
 
 			<h2 class ="fourtharticle"> 
 			EDITOR'S PICKS 
@@ -183,7 +230,7 @@
 			SEE SOME OF OUR FAVORITE BITES
 			</h3>
 
-		</section>
+			</section></a>
 
 		<section class= "fourthimages">
 		<img class= "fourthleft" src= "images/fourthleft.jpg" >
@@ -217,18 +264,23 @@
 	</div>
 <!--__________________________________________________________________-->
 	
-	<div class= "newsletter">
+	<div class= "newsletter" id="signup">
 		<span class="newsletterheader">NEWSLETTER</span>
 		<br>
 		Subscribe to get your daily dose. 
 		
-		<form class="newsletterform"> Email here</form> 
+		<input id="newsletterform" type="text" placeholder="email"> </input> 
 		<button class="submit">JOIN </button>
-		<br>
-		<br>
+	
+		<div id="result"></div>
+		
 		<br>
 		<br>
 	</div></li>
+<!--
+
+We have added your email, <span id="submittedemail"></span>!
+-->
 	
 <!--__________________________________________________________________-->
 	
