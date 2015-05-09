@@ -1269,10 +1269,13 @@ footer {
 
 /******************************************************************************************************************************************************************/
 
-/*mobile*/
+/*mobile portrait*/
 	
 @media(max-width:414px) {
 
+img.navbutton , img.searchbutton {
+	width:27%
+}
 
 div#hamburger {
 	width:30%;
@@ -1470,5 +1473,61 @@ div#searchbar.show {
 }
 
 
+/******************************************************************************************************************************************************************/
+
+/*mobile landscape*/
+@media(max-width:568px)and (min-width:415px) {
+	
+	img.navbutton , img.searchbutton {
+	width:22%
+}
+
+div#hamburger {
+	width:30%;
+	padding-left:0;
+	
+}
+	
+li.hamburger {
+		display:block;
+		font-size: 111%;
+		line-height: 220%;
+		font-family: 'gt_walsheim_pro_trialmedium';
+		text-decoration: none;
+		color:white;
+		margin-left:0;
 		
+	
+	}
+
+ul.hamburger {
+	
+	padding-left:18%;
+}
+	
+	li#subscribecolor {
+		color:#f2e833;
+	}
+
+input.searchbox {
+	font-size: 90%;
+}
+
+div.searchbutton {
+	width: 30%; 
+	float:right;
+	display: inline-block;
+	padding-right: 4%;
+	top:100%;
+	right:0;
+
+}
+
+div#searchbar.show {
+	width:40%;
+	top:100%;
+	right:0;
+}
+	
+}
 	
