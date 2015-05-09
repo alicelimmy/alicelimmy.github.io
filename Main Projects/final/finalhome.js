@@ -36,7 +36,7 @@ $(
 				url: url,
 				cache: false,
 				dataType: "json",
-				complete: function(data){
+				success: function(data){
 				
 					$("#result").html("Thank You!");	
 				
