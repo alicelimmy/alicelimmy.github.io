@@ -44,24 +44,3 @@ $(function () {
 		 	requestFile("data.json");
 		})						 
 });
-
-
-
-//var temp = $(".searchbox").val();
-//url = "http://google.com/" + temp;
-//window.location(url);
-
-
-
-//
-//$( "#enter" ).keypress(function(event) {
-//  if ( event.which == 13 ) {
-//     event.preventDefault();
-//  }
-//});
-//
-//
-//
-//$("#enter").keypress(function (e) {
-//  alert("enter");
-//});

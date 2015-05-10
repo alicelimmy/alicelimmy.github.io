@@ -1,8 +1,6 @@
 html {
-		
-		font-family: 'aktiv_grotesk_triallight';
-		
-	}
+	font-family: 'aktiv_grotesk_triallight';	
+}
 
 body {
 	width: 68%; 
@@ -19,11 +17,11 @@ body {
 	background-color: white;
 	float: left;
 	color: black;
-	
-	
 }
 
-		@media (min-width: 769px) and (max-width: 2000px) {
+/*_____To get rid of Nav/search button on web view___*/
+
+		@media (min-width: 769px) and (max-width: 2400px) {
 			img.navbutton {
 			 display: none; 
 			}
@@ -32,86 +30,135 @@ body {
 				display: none; 
 			}
 			
+			div#hamburger , div#searchbar {
+				display: none; 
+			}
+			
+			button#search , button#navigation {
+				display:none;
+			}
+			
 		}
+
 
 div.vitaminheader {
 	width:25%;
 }
 
 img.logowhite {
-width: 100%;
+	width: 100%;
 }
 
 
 
-/*________________________________________nav___________*/
+/*____________________________________yellow____nav_bar__________*/
 
 .nav {
 	width:100%;
-	
 }
 
-nav {
-	width:100%;
-	background-color: #f2e833;
-	width: 100%;
-	height: 4%;
-	float: left;
-	z-index: 0;
-	margin-bottom: 3%;
-	
-}
-
-.subscribe {
-	width: 13.57%;
-	height: 15%;
-	float:left;
-
-
-	
-}
-
-.facebook , .twitter , .instagram {
-	width: 2.7%;
-	padding-right: 1.5%;
-	padding-top:.8%;
-	height: 6%;
-	float:right;
-	
-}
-
-
-.news , .recipes ,  .events , .favorites { 	
+	nav {
+		width:100%;
+		background-color: #f2e833;
+		width: 100%;
+		height: 4%;
 		float: left;
-		width: 10.1%;
-		height: 10%;
+		z-index: 0;
+		margin-bottom: 3%;
 	}
 
-.divider {
-	float: left; 
-	width: 3%;
-	height: 4%;
-	}
 
-.home{ 
-	float: left;
-	width: 5%;
-	height: 10%;
-	}
+		.home { 
+			float: left;
+			width: 5%;
+			height: 10%;
+		}
+		
+		.news , .recipes ,  .events , .favorites { 	
+			float: left;
+			width: 10.1%;
+			height: 10%;
+		}
 
- .search { 
-	float: left;
-	width: 5.3%;
-	height: 10%;
-	}
+		.subscribe {
+			width: 13.57%;
+			height: 15%;
+			float:left;
+		}
 
-.clear {
-	clear: both;
-}
+		.divider {
+			float: left; 
+			width: 3%;
+			height: 4%;
+		}
+		
+		.search { 
+			float: left;
+			width: 28%;
+		}
+				button#search2 { 
+					background-color:  #f2e833;
+					border:none;
+					text-decoration:none;
+					display: block;
+					width:18%;	
+				}
 
-li {
-	display: inline;
-}
+				div#searchbar2 {
+				  float: right;
+				  display: inline-block;
+				  z-index: 100;
+				  position: absolute;
+				  color: white;
+				  transition: all .1s;
+				  width: 0%;
+				  height: 9%;
+				  margin-top: -2.8%;
+				  right: -19%;
+				  overflow: hidden;
+				  right: 19%;
+				}
+
+				div#searchbar2.show {
+				 	width:11%;
+				}
+
+				input.searchbox2 {
+				  border: 1px solid white;
+				  padding-left: 8%;
+				  color: black;
+				  font-size: 80%;
+				  background-color: #f2e833;
+				  width: 92%;
+				  border: 0;
+				  float: right;
+				  padding: 1%;
+				  font-family: 'aktiv_grotesk_triallight';
+				  border: 1px solid black;
+					}
+
+			
+
+		.facebook , .twitter , .instagram {
+			width: 2.7%;
+			padding-right: 1.5%;
+			padding-top:.8%;
+			height: 6%;
+			float:right;
+		}
+
+		.clear {
+			clear: both;
+		}
+
+		li {
+			display: inline;
+		}
+
+/*_______________________________________end_nav___________*/
+/*__________________________________________________*/
+/*__________________________________________________*/
+
 
 
 
@@ -272,7 +319,9 @@ div.fifthsection {
 
 
 
-/*________________________________________________________________________________________________*/
+/*_______________________________________footer_____start_____*/
+/*___________________________________________*/
+/*____________________________________________*/
 
 
 footer {
@@ -283,9 +332,6 @@ footer {
 	font-size: 72%;
 	
 }
-
-
-
 		div.about {
 			width: 26%; 
 			background-color: #000000;
@@ -295,24 +341,18 @@ footer {
 			padding: 1.9%;
 			line-height: 200%;
 			display:block;
-
-
 		}
 
 			.aboutheader { 
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
-
 			}
-
 
 			.aboutlinks {
 				color: #f2e833;
 				font-size:110%;
 				padding-right: 10%;
-
 			}
 
 
@@ -324,24 +364,31 @@ footer {
 			margin-right: 1.5%;
 			padding: 2%;
 			display: block;
+			line-height: 190.8%;
 		}
 
 			.newsletterheader {
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
 			}
 
 
 
-			.newsletterform {
+			input#newsletterform {
 				border: 1px solid white; 
-				width: 65%; 
+				width: 90%; 
 				padding: 1%;
-				float:left;
-
-
+				display:block;
+				margin-bottom:2%;
+			}
+		
+			div#result {
+				margin-left:20%;
+				color:white;
+				font-size: 130%;
+				font-family:'gt_walsheim_pro_trial_regulRg';
+				display:inline-block;
 			}
 
 			.submit {
@@ -353,9 +400,6 @@ footer {
 				float: left;
 				padding: 2%;
 				text-align: center;
-				margin-left: 3%;
-
-
 			}
 
 
@@ -368,7 +412,6 @@ footer {
 			padding: 2%;
 			color: #000000;
 			display: block;
-
 		}
 
 			.title {
@@ -380,8 +423,9 @@ footer {
 				width: 20%;
 				padding-right:9%; 
 				margin-top: 12.1%;
-
 			}
+
+/*_______________________________________footer_____end_____*/
 
 
 /************************media query ipad ****
@@ -389,14 +433,91 @@ footer {
 *********************************************************************/
 
 @media (max-width:768px) {
+	
+div#hamburger {
+		margin-top:12%;
+		width:30%;
+		margin-right:0%;
+		border-top: 2px solid #f2e833;
+		left:-32%;
+		position:absolute;
+		z-index:100;
+		transition: all .1s;
+		background-color: black;
+		color:white;
+		text-align:left;
+}
 
-	body {
+	li.hamburger {
+		display:block;
+		font-size: 150%;
+		line-height: 220%;
+		font-family: 'gt_walsheim_pro_trialmedium';
+		text-decoration: none;
+		color:white;
+	}
+
+	button#navigation {
+		background-color: black;
+		border:none;
+	}
+
+	
+	div#hamburger.show {
+		left:0;
+	}
+	
+/*	_______search_________________________*/
+	
+div#searchbar {
+	float:right;
+	display: inline-block;
+	z-index:100;
+	position:absolute;
+	color:white;
+	background-color:black;
+	width:0%;
+	transition: all .1s;
+	top:60%;
+	right:3%;
+	margin-top:5%:
+}	
+	
+	button#search { 
+		background-color: black;
+		border:none;
+		float:right;
+		display:block;
+	}
+
+	input.searchbox {
+		border: 1px solid white;
+		padding-left:7%;
+		padding: 2%;
+		color:white;
+		font-size: 160%;
+		background-color:black;
+		width:90%;
+		border:0;
+		font-family: 'aktiv_grotesk_triallight';
+	}
+	
+	div#searchbar.show {
+		top:100%;
+		right:3%;
+		width:55%;
+		margin-top:5%:
+	}
+	
+	
+/*	--------------------main body-----------*/
+	
+body {
 		width: 96%;
 		margin-left: 2%;
 		margin-right: 2%;
 		padding: 0;
 		font-family: 'aktiv_grotesk_triallight';
-		
 	}
 		
 		.clear {
@@ -404,7 +525,6 @@ footer {
 		}
 
 		.top {
-
 			background-color: black;
 			color: white;
 			text-align: center;
@@ -430,11 +550,9 @@ footer {
 					padding-top:10%;
 				}
 	
-				
 				.nav {
 					display: none;
 				}
-
 	
 			img.logowhite {
 				display:none;
@@ -455,15 +573,14 @@ footer {
 				float:right;
 				display: inline-block;
 				padding-right: 4%;
-				
 			}
 
-
 				img.searchbutton {
-					width: 20%;
+					width: 15%;
 					float:right;
 					padding-top:10%;
 				}
+
 
 
 /*	_________first section start_____________________________/*/
@@ -523,18 +640,18 @@ footer {
 	
 	
 	
-/*	________footer start______________________________*/
+/*	______________________________________*/
 	
 	
-footer {
+	footer {
 
-	float: left;
-	width:100%; 
-	margin-left:0%;
-	margin-right: 0%;
-	font-size: 80%;
-}
-	
+		float: left;
+		width:100%; 
+		margin-left:0%;
+		margin-right: 0%;
+		font-size: 80%;
+	}
+
 	
 
 
@@ -604,7 +721,16 @@ footer {
 			float: left;
 			text-align: center;
 			margin-left: 45%;
-			margin-right: 45%:
+			margin-right: 45%;
+		}
+		
+		div#result {
+				margin:auto;
+				color:white;
+				font-size: 150%;
+				font-family:'aktiv_grotesk_triallight';
+				display:block;
+				margin-top:1%;
 		}
 
 
@@ -617,7 +743,7 @@ footer {
 		font-family: 'aktiv_grotesk_triallight';
 		margin-left: 0%;
 		margin-right:0%;
-		margin-bottom: 0s%;
+		margin-bottom: 0%;
 		text-align: left;
 		top:0;
 		padding: 4%;
@@ -645,7 +771,7 @@ footer {
 			}
 
 
-}	
+}
 
 
 /******************************************************************************************************************************************************************/
@@ -664,7 +790,7 @@ footer {
 
 		}
 	
-/*********************footer start ********************************************************/	
+/*_______________________footer_________________________*/
 	
 footer {
 	float: left;
@@ -672,10 +798,8 @@ footer {
 	margin-left:0;
 	margin-right: 0;
 	font-size: 60%;
-	
+
 }
-
-
 
 		div.about {
 			width: 26%; 
@@ -686,16 +810,12 @@ footer {
 			padding: 1.8%;
 			line-height: 198%;
 			display:block;
-
-
 		}
 
 			.aboutheader { 
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
-
 			}
 
 
@@ -703,7 +823,6 @@ footer {
 				color: #f2e833;
 				font-size:110%;
 				padding-right: 10%;
-
 			}
 
 
@@ -721,7 +840,6 @@ footer {
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
 			}
 
 
@@ -731,8 +849,6 @@ footer {
 				width: 65%; 
 				padding: 1%;
 				float:left;
-
-
 			}
 
 			.submit {
@@ -744,9 +860,6 @@ footer {
 				float: left;
 				padding: 2%;
 				text-align: center;
-				margin-left: 3%;
-
-
 			}
 
 
@@ -759,7 +872,6 @@ footer {
 			padding: 2%;
 			color: #000000;
 			display: block;
-
 		}
 
 			.title {
@@ -771,19 +883,65 @@ footer {
 				width: 20%;
 				padding-right:9%; 
 				margin-top: 12.1%;
-
 			}
+	
+	
+	.newsletter {
+		line-height: 183.8%;
+	}
 	
 }
 
 /******************************************************************************************************************************************************************/
 
-/*mobile*/
+/*mobile portrait*/
 	
 @media(max-width:414px) {
-	
 
-		
+	img.navbutton , img.searchbutton {
+		width:27%
+	}
+
+	div#hamburger {
+		width:30%;
+		padding-left:0;
+	}
+
+	li.hamburger {
+			display:block;
+			font-size: 60%;
+			line-height: 250%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			text-decoration: none;
+			color:white;
+			margin-left:0;
+		}
+
+	ul.hamburger {
+		padding-left:18%;
+	}
+
+		li#subscribecolor {
+			color:#f2e833;
+		}
+
+	input.searchbox {
+		font-size: 41%;
+	}
+
+	div.searchbutton {
+		width: 30%; 
+		float:right;
+		display: inline-block;
+		padding-right: 4%;
+
+	}
+
+	div#searchbar.show {
+		width:45%;
+	}
+
+
 /*
 **************end of header *************************************************************/	
 	
@@ -828,82 +986,139 @@ footer {
 	
 	
 /*___________________________start of footer ___________________________________________*/
-	div.about {
-		width: 92%; 
-		background-color: #000000;
-		float: left;
-		display:block;
-		margin-left: 0%;
-		margin-right:0%;
-		margin-bottom: 0%;
-		color: white;
-		line-height: 245.9%;
-		padding: 4%;
-		border-bottom: 2px solid #f2e833;
-		}
-
-		.aboutheader { 
-			font-family: 'gt_walsheim_pro_trialmedium';
-			color: #f2e833;
-			font-size:180%;
-		}
-
-
-		.aboutlinks {
-			color: #f2e833;
-			font-size:110%;
-			padding-right:15%;
-			text-align: center;
-		}
+	/*___________________________start of footer ___________________________________________*/
+		/*___________________________start of footer ___________________________________________*/
 	
-	
-	
-	
-	
-	.social {
-		width:92%;
-		color: #ffffff;
-		float: left;
-		background-color: #f2e833;
-		color: #000000;
-		font-family: 'aktiv_grotesk_triallight';
-		margin-left: 0%;
-		margin-right:0%;
-		margin-bottom: 0s%;
-		text-align: left;
-		top:0;
-		padding: 4%;
-		line-height: 220%;
-	}
-
-		.title {
-			font-family: 'gt_walsheim_pro_trialmedium';
-			font-size:180%;
-			margin-right: 80%;
-			margin-top:2%;
-			line-height: 10%;
-			border-bottom: 2px solid #000000;
-		}
-	
-
-		.facebook3 , .twitter3 , .instagram3 {
-			width: 6%;
-			display: inline-block;
-			margin-top:3%;
-			padding-right: 20%;
-		}
-
-			span.delete {
-				margin-bottom: 0;
+		div.about {
+			width: 92%; 
+			background-color: #000000;
+			float: left;
+			display:block;
+			margin-left: 0%;
+			margin-right:0%;
+			margin-bottom: 0%;
+			color: white;
+			line-height: 245.9%;
+			padding: 4%;
+			border-bottom: 2px solid #f2e833;
 			}
 
-	/*___________________________end of footer ___________________________________________*/
-	
-	
+			.aboutheader { 
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: #f2e833;
+				font-size:180%;
+			}
+
+
+			.aboutlinks {
+				color: #f2e833;
+				font-size:110%;
+				padding-right:15%;
+				text-align: center;
+			}
+
+
+		.submit {
+			margin-left: 40%;
+		}
+		
+		div#result {
+			margin-top:5%;
+		}
+
+
+		.social {
+			width:92%;
+			color: #ffffff;
+			float: left;
+			background-color: #f2e833;
+			color: #000000;
+			font-family: 'aktiv_grotesk_triallight';
+			margin-left: 0%;
+			margin-right:0%;
+			margin-bottom: 0s%;
+			text-align: left;
+			top:0;
+			padding: 4%;
+			line-height: 220%;
+		}
+
+			.title {
+				font-family: 'gt_walsheim_pro_trialmedium';
+				font-size:180%;
+				margin-right: 80%;
+				margin-top:2%;
+				line-height: 10%;
+				border-bottom: 2px solid #000000;
+			}
+
+
+			.facebook3 , .twitter3 , .instagram3 {
+				width: 6%;
+				display: inline-block;
+				margin-top:3%;
+				padding-right: 20%;
+			}
+
+				span.delete {
+					margin-bottom: 0;
+				}
+
+		/*___________________________end of footer ___________________________________________*/
+
 }
 
 
-		
-	
+/******************************************************************************************************************************************************************/
 
+/*mobile landscape*/
+@media(max-width:568px)and (min-width:415px) {
+	
+	img.navbutton , img.searchbutton {
+		width:22%
+	}
+
+	div#hamburger {
+		width:30%;
+		padding-left:0;
+	}
+
+	li.hamburger {
+			display:block;
+			font-size: 111%;
+			line-height: 220%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			text-decoration: none;
+			color:white;
+			margin-left:0;
+		}
+
+	ul.hamburger {
+		padding-left:18%;
+	}
+
+		li#subscribecolor {
+			color:#f2e833;
+		}
+
+	input.searchbox {
+		font-size: 90%;
+	}
+
+	div.searchbutton {
+		width: 30%; 
+		float:right;
+		display: inline-block;
+		padding-right: 4%;
+		top:100%;
+		right:0;
+	}
+
+	div#searchbar.show {
+		width:40%;
+		top:100%;
+		right:0;
+	}
+	
+}
 	
