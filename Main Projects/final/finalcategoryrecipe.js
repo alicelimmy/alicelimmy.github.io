@@ -1,19 +1,30 @@
 $(function (){
-	$("#navigation").click(function(){
-		$("#hamburger").toggleClass ("show");
+		$("#navigation").click(function(){
+			$("#hamburger").toggleClass ("show");
+		});
 	});
-});
 
-$(function (){
-	$("#search").click(function(){
-		$("#searchbar").toggleClass ("show");
+	$(function (){
+		$("#search").click(function(){
+			$("#searchbar").toggleClass ("show");
+		});
 	});
-});
 
-$(function (){
-	$("#search2").click(function(){
-		$("#searchbar2").toggleClass ("show");
-	});
+	$(function (){
+		$("#search2").click(function(){
+			$("#searchbar2").toggleClass ("show");
+		});
+
+	$("#enter").on('keydown', function(event) {
+	  if(event.which === 13)
+		  window.location.replace("http://google.com/");
+	});	
+		
+	$("#enter2").on('keydown', function(event) {
+	  if(event.which === 13)
+		  window.location.replace("http://google.com/");
+	});	
+	
 });
 
 
