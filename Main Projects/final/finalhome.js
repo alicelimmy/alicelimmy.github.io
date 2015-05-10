@@ -45,23 +45,12 @@ $(function () {
 		})						 
 });
 
+//___________search enter ____________________
 
-
-//var temp = $(".searchbox").val();
-//url = "http://google.com/" + temp;
-//window.location(url);
-
-
-
-//
-//$( "#enter" ).keypress(function(event) {
-//  if ( event.which == 13 ) {
-//     event.preventDefault();
-//  }
-//});
-//
-//
-//
-//$("#enter").keypress(function (e) {
-//  alert("enter");
-//});
+$("#enter").on('keydown', function(e) {  
+		var url = "http://www.google.com";  
+		if ( event.which == 13 ) {
+			$(location).attr('href',url);
+		}
+		
+});
