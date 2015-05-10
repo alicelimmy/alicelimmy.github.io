@@ -15,79 +15,134 @@
 		<link rel="stylesheet" href="stylesheet2.css" type="text/css" charset="utf-8" />
        
 		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-		<script src='finalhome.js'>   </script>
-      
+		<script src='finalcategoryrecipe.js'>   </script>
     </head>
-
- 
-<body>
-	<div class="top">
 	
-				
+	
+	
+ 
+<body>			
+	
+<!--_______________Start of Header ________________________________________-->
+<!--_______________ ________________________________________-->
+
+	<div class="top">
 		
-				<div class= navbutton>
-					<a href="finalarticle.html">
-						<img  class= "navbutton" src=images/navbutton.gif>
-					</a>
-				</div>
-		
-				<div class= vitaminheader>
-					<img class="logowhite" src=images/logowhite.jpg> 
-					<img class="logoblack" src=images/logoblack.jpg> 
-				</div>	
-		
-				<div class= searchbutton>
-					<a href="finalarticle.html">
-						<img class= "searchbutton" src=images/searchbutton.gif>
-					</a>
-				</div>
-		
-		
-	</div>
-		
-		<div class="clear"> 
+		<div class= navbutton>
+			<button id="navigation">
+				<img  class= "navbutton" src=images/navbutton.gif>
+			</button>
 		</div>
 
-		
-			<div class= "nav"> 
 
-					<nav> 
-						<a href ="finalhome.html" class="firstlink" >
-						<li><img class="home" src=images/home.gif> </li>
-						</a>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<a href ="finalcategorynews.html" class="firstlink" >
-						<li><img class="news" src=images/news.gif> </li>
-						</a>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<a href ="finalcategoryrecipe.html" class="firstlink" >
-						<li><img class="recipes" src=images/recipes.gif> </li>
-						</a>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<a href ="finalcategoryfavorites.html" class="firstlink" >
-						<li><img class="favorites" src=images/favorites.gif> </li>
-						</a>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<a href ="finalcategoryevents.html" class="firstlink" >
-						<li><img class="events" src=images/events.gif> </li>
-						</a>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<li><img class="subscribe" src=images/subscribe.gif></li>
-						<li><img class="divider" src=images/divider.gif> </li>
-						<li><img class="search" src=images/search.gif> </li>
-						
-						<li><img class="facebook" src=images/facebook.gif></li> 
-						<li><img class="instagram" src=images/instagram.gif></li> 
-						<li><img class="twitter" src=images/twitter.gif></li> 
-						
-					</nav>
-					
-				
-					
-					
-				
-			</div>	
+		<div id="hamburger">
+
+		<ul class=hamburger>
+			<a href=finalhome.html>
+				<li class="hamburger">HOME</li>
+			</a>
+			<a href=finalcategorynews.html>
+				<li class="hamburger">NEWS</li>
+			</a>
+			<a href=finalcategoryrecipe.html>
+				<li class="hamburger">RECIPES</li>
+			</a>
+			<a href=finalcategoryevents.html>
+				<li class="hamburger">EVENTS</li>
+			</a>
+			<a href="#result">
+				<li class ="hamburger" id="subscribecolor">SUBSCRIBE</li>
+			</a>
+		</ul>
+
+		</div>
+
+		<div class= vitaminheader>
+			<img class="logowhite" src=images/logowhite.jpg> 
+			<img class="logoblack" src=images/logoblack.jpg> 
+		</div>	
+
+		<div class= searchbutton>
+			<button id="search">
+				<img class= "searchbutton" src=images/searchbutton.gif>
+			</button>
+		</div>
+
+		<div id="searchbar">
+		<input type="text" placeholder="What are you in the mood for?"
+		class="searchbox"> </input>
+		</div>
+	
+	</div>
 		
+	
+	<div class="clear"> 
+	</div>
+
+		
+	<div class= "nav"> 
+		<nav> 
+		<!--home button -->	<a href ="finalhome.html" class="firstlink" >
+								<li><img class="home" src=images/home.gif></li>
+							</a>
+
+							<li><img class="divider" src=images/divider.gif></li>
+
+		<!--news  -->		<a href ="finalcategorynews.html" class="firstlink">
+								<li><img class="news" src=images/news.gif></li>
+							</a>
+
+							<li>
+								<img class="divider" src=images/divider.gif> 
+							</li>
+
+		<!--recipe -->		<a href ="finalcategoryrecipe.html" class="firstlink" >
+								<li><img class="recipes" src=images/recipes.gif></li>
+							</a>
+
+							<li><img class="divider" src=images/divider.gif> </li>
+
+		<!--fav  -->		<a href ="finalcategoryfavorites.html" class="firstlink" >
+								<li><img class="favorites" src=images/favorites.gif> </li>
+							</a>
+
+							<li><img class="divider" src=images/divider.gif> </li>
+
+		<!--events  -->		<a href ="finalcategoryevents.html" class="firstlink" >
+								<li><img class="events" src=images/events.gif></li>
+							</a>
+
+							<li><img class="divider" src=images/divider.gif></li>
+
+		<!--subscribe -->	<a href=#signup class="bottom">
+								<li><img class="subscribe" src=images/subscribe.gif></li>							
+							</a>
+
+							<li><img class="divider" src=images/divider.gif> </li>
+
+
+							<button id="search2">
+								<li><img class="search" src=images/search.gif></li>									
+							</button>
+
+
+		<!--search -->		<div id="searchbar2">
+							<input type="text" placeholder="Search Here" class="searchbox2"></input>	
+							</div>
+
+
+	<!--Social Media 
+
+							<li><img class="facebook" src=images/facebook.gif></li> 
+							<li><img class="instagram" src=images/instagram.gif></li> 
+							<li><img class="twitter" src=images/twitter.gif></li> 
+	-->
+
+		</nav>
+	</div>	
+
+<!--_______________End of Header ________________________________________-->
+<!--_______________ ________________________________________-->
 
 		
 
@@ -195,58 +250,55 @@
 
 <!--__________________________________________________________________-->
 
-<footer>
-	
-	<div class= "about">
-		
-		<span class= "aboutheader">ABOUT</span>
-		
-		<br>
-		VITAMIN F is an online magazine for foodies in NYC. 
-		Learn about the best new food joints and events in NYC. 
-		<br>
-		
+	<footer>
+
+		<div class= "about">
+
+			<span class= "aboutheader">ABOUT</span>
+
+			<br>
+			VITAMIN F is an online magazine for foodies in NYC. 
+			Learn about the best new food joints and events in NYC. 
+			<br>
+
 			<section class= "links">
 
-			<u><li class="aboutlinks"> Our Team</li></u>
-			<u><li class="aboutlinks"> Contact</li></u>
-			<u><li class="aboutlinks"> Jobs</li></u>
+				<u><li class="aboutlinks"> Our Team</li></u>
+				<u><li class="aboutlinks"> Contact</li></u>
+				<u><li class="aboutlinks"> Jobs</li></u>
 
 			</section>
-	</div>
-<!--__________________________________________________________________-->
-	
-	<div class= "newsletter">
-		<span class="newsletterheader">NEWSLETTER</span>
-		<br>
-		Share your daily dose. 
-		
-		<form class="newsletterform"> Email here</form> 
-		<button class="submit">JOIN </button>
-		<br>
-		<br>
-		<br>
-		<br>
-	</div></li>
-	
-<!--__________________________________________________________________-->
-	
-	<div class= "social">
-	<SPAN CLASS = "title"> SOCIAL </SPAN>
-	<BR>
-		<span class=delete>Connect with <strong>VITAMIN F</strong>!</span>
-	
-	<br>
-		<img class="facebook3" src=images/facebook.gif> 
-			
-		<img class="instagram3" src=images/instagram.gif> 
-		
-		<img class="twitter3" src=images/twitter.gif> 
-		
-	<br>
-	</div>
-	
-</footer>
+
+		</div>
+	<!--__________________________________________________________________-->
+
+		<div class= "newsletter" id="signup">
+
+			<span class="newsletterheader">NEWSLETTER</span>
+			<br>
+			Subscribe to get your daily dose. 
+			<input id="newsletterform" type="text" placeholder="email"></input> 
+			<button class="submit">JOIN </button>
+			<br>
+
+			<div id="result"></div>
+
+		</div>
+
+	<!--__________________________________________________________________-->
+
+		<div class= "social">
+			<SPAN CLASS = "title"> SOCIAL </SPAN>
+			<BR>
+			<span class=delete>Connect with <strong>VITAMIN F</strong>!</span>
+			<br>
+			<img class="facebook3" src=images/facebook.gif> 
+			<img class="instagram3" src=images/instagram.gif> 
+			<img class="twitter3" src=images/twitter.gif> 
+			<br>
+		</div>
+
+	</footer>
 
 </html>
 	

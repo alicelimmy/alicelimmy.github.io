@@ -1,6 +1,6 @@
 html {
-		font-family: 'aktiv_grotesk_triallight';	
-	}
+	font-family: 'aktiv_grotesk_triallight';	
+}
 
 body {
 	width: 68%; 
@@ -244,9 +244,7 @@ div.secondsection {
 		width: 48%; 
 		margin:0;
 		float: left; 
-		
 		display: inline-block;
-		
 	}
 
 	section.secondtext {
@@ -255,7 +253,6 @@ div.secondsection {
 		font-family: 'aktiv_grotesk_triallight';
 		font-size: 100%;
 		line-height: 110%;
-		
 	}
 
 		h2.secondarticle {
@@ -273,8 +270,6 @@ div.secondsection {
 			line-height: 150%;
 			text-align: left;
 			margin-top: 35%;
-		
-
 		}
 			
 
@@ -297,7 +292,6 @@ div.thirdsection {
 		float: right; 
 		margin-top: 3%;
 		display: inline-block;
-		
 	}
 
 	section.thirdtext {
@@ -306,9 +300,6 @@ div.thirdsection {
 		font-family: 'aktiv_grotesk_triallight';
 		font-size: 100%;
 		line-height: 110%;
-		
-		
-
 	}
 
 
@@ -326,12 +317,9 @@ div.thirdsection {
 			line-height: 150%;
 			text-align: right;
 			margin-top: 42%;
-		
-
 		}
 			
 /*________________________third section__start ______________*/
-
 
 /*_______________________________________fourth section __________*/
 
@@ -345,13 +333,11 @@ div.fourthsection {
 }
 
 	section.fourthtext {
-
 		line-height: 110%;
 		text-decoration: none;
 		color:black;
 
 	}
-
 		h2.fourtharticle {
 			float:left;
 			font-family: 'gt_walsheim_pro_trial_regulRg';
@@ -359,17 +345,13 @@ div.fourthsection {
 			display: block;
 			line-height: 50%;
 		}
-
-
 		h3.fourtharticlecaption {
 			float:left;
 			font-family: 'aktiv_grotesk_triallight';
 			font-size: 95%;
 			display:block;
 			border-bottom: 4px solid #f2e833;
-
 		}
-
 
 	section.fourthimages {
 
@@ -377,7 +359,6 @@ div.fourthsection {
 		display:inline-block;
 		padding-bottom: 2.5%;
 		border-bottom: 4px solid #000000;
-		
 	}
 
 		.fourthleft , .fourthmiddle , .fourthright {
@@ -392,8 +373,6 @@ div.fourthsection {
 			padding-right:1%;			
 		}
 
-/*_______________________________________fourth section __end ________*/
-
 /*_______________________________________footer_____start_____*/
 /*___________________________________________*/
 /*____________________________________________*/
@@ -407,9 +386,6 @@ footer {
 	font-size: 72%;
 	
 }
-
-
-
 		div.about {
 			width: 26%; 
 			background-color: #000000;
@@ -419,24 +395,18 @@ footer {
 			padding: 1.9%;
 			line-height: 200%;
 			display:block;
-
-
 		}
 
 			.aboutheader { 
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
-
 			}
-
 
 			.aboutlinks {
 				color: #f2e833;
 				font-size:110%;
 				padding-right: 10%;
-
 			}
 
 
@@ -455,7 +425,6 @@ footer {
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
-
 			}
 
 
@@ -466,7 +435,6 @@ footer {
 				padding: 1%;
 				display:block;
 				margin-bottom:2%;
-
 			}
 		
 			div#result {
@@ -486,9 +454,6 @@ footer {
 				float: left;
 				padding: 2%;
 				text-align: center;
-				
-
-
 			}
 
 
@@ -501,7 +466,6 @@ footer {
 			padding: 2%;
 			color: #000000;
 			display: block;
-
 		}
 
 			.title {
@@ -513,11 +477,9 @@ footer {
 				width: 20%;
 				padding-right:9%; 
 				margin-top: 12.1%;
-
 			}
 
 /*_______________________________________footer_____start_____*/
-
 
 /************************media query ipad ****
 ***************************************
@@ -537,7 +499,6 @@ div#hamburger {
 		background-color: black;
 		color:white;
 		text-align:left;
-		
 }
 
 	li.hamburger {
@@ -573,7 +534,6 @@ div#searchbar {
 	top:60%;
 	right:3%;
 	margin-top:5%:
-	
 }	
 	
 	button#search { 
@@ -611,7 +571,6 @@ body {
 		margin-right: 2%;
 		padding: 0;
 		font-family: 'aktiv_grotesk_triallight';
-		
 	}
 		
 		.clear {
@@ -619,7 +578,6 @@ body {
 		}
 
 		.top {
-
 			background-color: black;
 			color: white;
 			text-align: center;
@@ -645,11 +603,9 @@ body {
 					padding-top:10%;
 				}
 	
-				
 				.nav {
 					display: none;
 				}
-
 	
 			img.logowhite {
 				display:none;
@@ -670,9 +626,7 @@ body {
 				float:right;
 				display: inline-block;
 				padding-right: 4%;
-				
 			}
-
 
 				img.searchbutton {
 					width: 15%;
@@ -684,25 +638,23 @@ body {
 /*	_________first section start_____________________________/*/
 	
 	div.firstsection {
-	width: 100%;
-	float: left;
-	padding:0%;
-	margin-top: 10%;
-	border-bottom: none;
-}
+		width: 100%;
+		float: left;
+		padding:0%;
+		margin-top: 10%;
+		border-bottom: none;
+	}
 
 
 	img.mobilefirstpicture {
 		display:block;
 		width:100%;
 		margin-top: 6%;
-
 	}
 	
 	
 	img.firstpicture {
 		display:none;
-		
 	}
 
 
@@ -713,8 +665,6 @@ body {
 		margin-right: auto;
 		display:block;
 		width:100%;
-
-
 	}
 
 		h1.firstarticle {
@@ -727,7 +677,6 @@ body {
 			bottom: 0;
 			float: left;
 			margin-right:25%;
-			
 		}
 		
 	
@@ -742,7 +691,6 @@ body {
 	
 		h1.firstarticle br{display:none;}
 	
-		
 		a.firstlink {
 			text-decoration:none;
 		}
@@ -754,120 +702,105 @@ body {
 /*	______second section_____________________*/
 	
 	div.secondsection {
-	width: 100%;
-	float: left;
-	padding:0%;
-	margin-top:8%;
-	overflow:hidden;
-	border-bottom: none;
-		
-}
-
-	img.secondpicture {
-	
-		width:85%;
-		float:left;
-		margin-right: 25%;
-		
-	}
-	
-
-
-	section.secondtext {
-		width:96%;
-		float:left;
-		font-family: 'aktiv_grotesk_triallight';
-		font-size: 100%;
-		line-height: 110%;
+		width: 100%;
+		float: left;
+		padding:0%;
+		margin-top:8%;
+		overflow:hidden;
 		border-bottom: none;
-		display:block;
-		margin-left: 2%;
-		margin-right: 2%;
-		border-bottom: 2px solid #000000;
-		
-	}
 
-		h2.secondarticle {
-			font-size: 200%;
-			font-family: 'gt_walsheim_pro_trial_regulRg';
-			color: black;
-			float:right;
-			margin-top: 7%;
-			border-bottom: 4px solid  #f2e833;
-			line-height: 100%;
-			margin-bottom: 0;
-			
 		}
-	
 
-		p.secondbodytext {
+		img.secondpicture {
+			width:85%;
+			float:left;
+			margin-right: 25%;
+		}
+
+		section.secondtext {
+			width:96%;
+			float:left;
 			font-family: 'aktiv_grotesk_triallight';
-			font-size: 90%;
-			line-height: 160%;
-			text-align: right;
-			margin-top: 12%;
-		
-
+			font-size: 100%;
+			line-height: 110%;
+			border-bottom: none;
+			display:block;
+			margin-left: 2%;
+			margin-right: 2%;
+			border-bottom: 2px solid #000000;
 		}
-	
+
+			h2.secondarticle {
+				font-size: 200%;
+				font-family: 'gt_walsheim_pro_trial_regulRg';
+				color: black;
+				float:right;
+				margin-top: 7%;
+				border-bottom: 4px solid  #f2e833;
+				line-height: 100%;
+				margin-bottom: 0;
+			}
+
+			p.secondbodytext {
+				font-family: 'aktiv_grotesk_triallight';
+				font-size: 90%;
+				line-height: 160%;
+				text-align: right;
+				margin-top: 12%;
+			}
+
 /*	_________third section __________________*/
 	
-div.thirdsection {
-	width: 100%;
-	float: left;
-	padding:0%;
-	margin-top:4%;
-	overflow:hidden;
-	border-bottom: none;
-}
-
-	img.thirdpicture {
-		width: 85%; 
-		margin:0;
-		float: right; 
-		margin-top: 2%;
-		display: inline-block;
-		
+	div.thirdsection {
+		width: 100%;
+		float: left;
+		padding:0%;
+		margin-top:4%;
+		overflow:hidden;
+		border-bottom: none;
 	}
 
-	section.thirdtext {
-		width:96%;
-		float:left;
-		font-family: 'aktiv_grotesk_triallight';
-		font-size: 100%;
-		line-height: 100%;
-		border-bottom: 2px solid #000000;
-		text-align: left;
-		margin-left: 2%;
-		margin-right: 2%;
-		
-
-	}
-
-
-		h2.thirdarticle {
-			font-size: 200%;
-			font-family: 'gt_walsheim_pro_trial_regulRg';
-			color: black;
-			float:left;
-			margin-top: 7.5%;
-			margin-bottom: 0;
-			border-bottom: 4px solid  #f2e833;
-			line-height: 100%;
-			display: inline-block;
-			
-		}
-
-		p.thirdbodytext {
-			font-family: 'aktiv_grotesk_triallight';
-			font-size: 90%;
-			line-height: 160%;
-			text-align: left;
+		img.thirdpicture {
+			width: 85%; 
+			margin:0;
+			float: right; 
 			margin-top: 2%;
 			display: inline-block;
-		
-
 		}
+
+		section.thirdtext {
+			width:96%;
+			float:left;
+			font-family: 'aktiv_grotesk_triallight';
+			font-size: 100%;
+			line-height: 100%;
+			border-bottom: 2px solid #000000;
+			text-align: left;
+			margin-left: 2%;
+			margin-right: 2%;
+		}
+
+
+			h2.thirdarticle {
+				font-size: 200%;
+				font-family: 'gt_walsheim_pro_trial_regulRg';
+				color: black;
+				float:left;
+				margin-top: 7.5%;
+				margin-bottom: 0;
+				border-bottom: 4px solid  #f2e833;
+				line-height: 100%;
+				display: inline-block;
+			}
+
+			p.thirdbodytext {
+				font-family: 'aktiv_grotesk_triallight';
+				font-size: 90%;
+				line-height: 160%;
+				text-align: left;
+				margin-top: 2%;
+				display: inline-block;
+			}
 
 	
 /*	____fourth section_______________________*/
@@ -882,13 +815,10 @@ div.fourthsection {
 }
 
 	section.fourthtext {
-
 		line-height: 110%;
 		width:96%;
 		margin-right: 2%;
 		margin-left: 2%;
-	
-
 	}
 
 		h2.fourtharticle {
@@ -896,7 +826,6 @@ div.fourthsection {
 			font-family: 'gt_walsheim_pro_trial_regulRg';
 			font-size: 207%;
 			display: block;
-			
 			line-height: 50%;
 		}
 
@@ -907,17 +836,14 @@ div.fourthsection {
 			font-size: 95%;
 			display:block;
 			border-bottom: 4px solid #f2e833;
-
 		}
 
 
 	section.fourthimages {
-
 		width:100%;
 		display:inline-block;
 		padding-bottom: 2.5%;
 		border-bottom: 2px solid #000000;
-		
 	}
 
 		.fourthleft , .fourthmiddle , .fourthright {
@@ -939,15 +865,15 @@ div.fourthsection {
 /*	______________________________________*/
 	
 	
-footer {
+	footer {
 
-	float: left;
-	width:100%; 
-	margin-left:0%;
-	margin-right: 0%;
-	font-size: 80%;
-}
-	
+		float: left;
+		width:100%; 
+		margin-left:0%;
+		margin-right: 0%;
+		font-size: 80%;
+	}
+
 	
 
 
@@ -1027,8 +953,7 @@ footer {
 				font-family:'aktiv_grotesk_triallight';
 				display:block;
 				margin-top:1%;
-			
-			}
+		}
 
 
 	.social {
@@ -1078,116 +1003,8 @@ footer {
 @media(max-width:1024px) and (min-width: 769px) {
 	
 	
-footer {
-	float: left;
-	width: 100%; 
-	margin-left:0;
-	margin-right: 0;
-	font-size: 60%;
 	
-}
-
-
-
-		div.about {
-			width: 26%; 
-			background-color: #000000;
-			float: left;
-			margin-right: 1.5%;
-			color: white;
-			padding: 1.8%;
-			line-height: 198%;
-			display:block;
-
-
-		}
-
-			.aboutheader { 
-				font-family: 'gt_walsheim_pro_trialmedium';
-				color: #f2e833;
-				font-size:155%;
-
-
-			}
-
-
-			.aboutlinks {
-				color: #f2e833;
-				font-size:110%;
-				padding-right: 10%;
-
-			}
-
-
-		.newsletter {
-			width: 38%;
-			color: #ffffff;
-			float: left;
-			background-color: #000000;
-			margin-right: 1.5%;
-			padding: 2%;
-			display: block;
-		}
-
-			.newsletterheader {
-				font-family: 'gt_walsheim_pro_trialmedium';
-				color: #f2e833;
-				font-size:155%;
-
-			}
-
-
-
-			.newsletterform {
-				border: 1px solid white; 
-				width: 65%; 
-				padding: 1%;
-				float:left;
-
-
-			}
-
-			.submit {
-				font-family: 'gt_walsheim_pro_trialmedium';
-				color: #f2e833;
-				font-size:132%;
-				background-color: transparent;
-				display:inline;
-				float: left;
-				padding: 2%;
-				text-align: center;
-
-
-			}
-
-
-
-		.social {
-			width:21%;
-			color: #ffffff;
-			float: left;
-			background-color: #f2e833;
-			padding: 2%;
-			color: #000000;
-			display: block;
-
-		}
-
-			.title {
-				font-size: 155%;
-				font-family: 'gt_walsheim_pro_trialmedium';
-			}
-
-			.facebook3 , .twitter3 , .instagram3 {
-				width: 20%;
-				padding-right:9%; 
-				margin-top: 12.1%;
-
-			}
-	
-	
-	
-/*******first section************************************************/
+	/*******first section************************************************/
 	
 	img.firstpicture {
 		width: 115%; 
@@ -1216,7 +1033,6 @@ footer {
 			color: black;
 			float:left;
 			margin-top: 22%;
-			
 		}
 
 
@@ -1226,8 +1042,6 @@ footer {
 			line-height: 130%;
 			text-align: left;
 			margin-top: 35.5%;
-		
-
 		}
 	
 	
@@ -1240,7 +1054,6 @@ footer {
 			color: black;
 			float:right;
 			margin-top: 35%;
-			
 		}
 
 		p.thirdbodytext {
@@ -1249,23 +1062,110 @@ footer {
 			line-height: 130%;
 			text-align: right;
 			margin-top: 45%;
-		
-
 		}
 	
 	
-/*******FOOTER************************************************/		
-/*******FOOTER************************************************/		
-/*******FOOTER************************************************/	
+/*_______________________footer_________________________*/
+	
+footer {
+	float: left;
+	width: 100%; 
+	margin-left:0;
+	margin-right: 0;
+	font-size: 60%;
 
+}
+
+		div.about {
+			width: 26%; 
+			background-color: #000000;
+			float: left;
+			margin-right: 1.5%;
+			color: white;
+			padding: 1.8%;
+			line-height: 198%;
+			display:block;
+		}
+
+			.aboutheader { 
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: #f2e833;
+				font-size:155%;
+			}
+
+
+			.aboutlinks {
+				color: #f2e833;
+				font-size:110%;
+				padding-right: 10%;
+			}
+
+
+		.newsletter {
+			width: 38%;
+			color: #ffffff;
+			float: left;
+			background-color: #000000;
+			margin-right: 1.5%;
+			padding: 2%;
+			display: block;
+		}
+
+			.newsletterheader {
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: #f2e833;
+				font-size:155%;
+			}
+
+
+
+			.newsletterform {
+				border: 1px solid white; 
+				width: 65%; 
+				padding: 1%;
+				float:left;
+			}
+
+			.submit {
+				font-family: 'gt_walsheim_pro_trialmedium';
+				color: #f2e833;
+				font-size:132%;
+				background-color: transparent;
+				display:inline;
+				float: left;
+				padding: 2%;
+				text-align: center;
+			}
+
+
+
+		.social {
+			width:21%;
+			color: #ffffff;
+			float: left;
+			background-color: #f2e833;
+			padding: 2%;
+			color: #000000;
+			display: block;
+		}
+
+			.title {
+				font-size: 155%;
+				font-family: 'gt_walsheim_pro_trialmedium';
+			}
+
+			.facebook3 , .twitter3 , .instagram3 {
+				width: 20%;
+				padding-right:9%; 
+				margin-top: 12.1%;
+			}
+	
+	
 	.newsletter {
 		line-height: 183.8%;
 	}
 	
-	
-	
 }
-	
 
 /******************************************************************************************************************************************************************/
 
@@ -1273,53 +1173,49 @@ footer {
 	
 @media(max-width:414px) {
 
-img.navbutton , img.searchbutton {
-	width:27%
-}
-
-div#hamburger {
-	width:30%;
-	padding-left:0;
-	
-}
-	
-li.hamburger {
-		display:block;
-		font-size: 60%;
-		line-height: 250%;
-		font-family: 'gt_walsheim_pro_trialmedium';
-		text-decoration: none;
-		color:white;
-		margin-left:0;
-		
-	
+	img.navbutton , img.searchbutton {
+		width:27%
 	}
 
-ul.hamburger {
-	
-	padding-left:18%;
-}
-	
-	li#subscribecolor {
-		color:#f2e833;
+	div#hamburger {
+		width:30%;
+		padding-left:0;
 	}
 
-input.searchbox {
-	font-size: 41%;
-}
+	li.hamburger {
+			display:block;
+			font-size: 60%;
+			line-height: 250%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			text-decoration: none;
+			color:white;
+			margin-left:0;
+		}
 
-div.searchbutton {
-	width: 30%; 
-	float:right;
-	display: inline-block;
-	padding-right: 4%;
+	ul.hamburger {
+		padding-left:18%;
+	}
 
-}
+		li#subscribecolor {
+			color:#f2e833;
+		}
 
-div#searchbar.show {
-	width:45%;
-}
-	
+	input.searchbox {
+		font-size: 41%;
+	}
+
+	div.searchbutton {
+		width: 30%; 
+		float:right;
+		display: inline-block;
+		padding-right: 4%;
+
+	}
+
+	div#searchbar.show {
+		width:45%;
+	}
+
 
 	/*	***********************************section one********************/
 
@@ -1332,7 +1228,6 @@ div#searchbar.show {
 			display:block;
 			width:100%;
 			margin-top: 3.5%;
-
 		}
 
 		.brunch {
@@ -1350,7 +1245,6 @@ div#searchbar.show {
 			width: 96%;
 			line-height: 110%;
 			margin-top: 4%;
-
 		}
 
 		.mediadata {
@@ -1469,7 +1363,6 @@ div#searchbar.show {
 
 		/*___________________________end of footer ___________________________________________*/
 
-
 }
 
 
@@ -1479,55 +1372,50 @@ div#searchbar.show {
 @media(max-width:568px)and (min-width:415px) {
 	
 	img.navbutton , img.searchbutton {
-	width:22%
-}
-
-div#hamburger {
-	width:30%;
-	padding-left:0;
-	
-}
-	
-li.hamburger {
-		display:block;
-		font-size: 111%;
-		line-height: 220%;
-		font-family: 'gt_walsheim_pro_trialmedium';
-		text-decoration: none;
-		color:white;
-		margin-left:0;
-		
-	
+		width:22%
 	}
 
-ul.hamburger {
-	
-	padding-left:18%;
-}
-	
-	li#subscribecolor {
-		color:#f2e833;
+	div#hamburger {
+		width:30%;
+		padding-left:0;
 	}
 
-input.searchbox {
-	font-size: 90%;
-}
+	li.hamburger {
+			display:block;
+			font-size: 111%;
+			line-height: 220%;
+			font-family: 'gt_walsheim_pro_trialmedium';
+			text-decoration: none;
+			color:white;
+			margin-left:0;
+		}
 
-div.searchbutton {
-	width: 30%; 
-	float:right;
-	display: inline-block;
-	padding-right: 4%;
-	top:100%;
-	right:0;
+	ul.hamburger {
+		padding-left:18%;
+	}
 
-}
+		li#subscribecolor {
+			color:#f2e833;
+		}
 
-div#searchbar.show {
-	width:40%;
-	top:100%;
-	right:0;
-}
+	input.searchbox {
+		font-size: 90%;
+	}
+
+	div.searchbutton {
+		width: 30%; 
+		float:right;
+		display: inline-block;
+		padding-right: 4%;
+		top:100%;
+		right:0;
+	}
+
+	div#searchbar.show {
+		width:40%;
+		top:100%;
+		right:0;
+	}
 	
 }
 	
