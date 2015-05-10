@@ -47,10 +47,9 @@ $(function () {
 
 //___________search enter ____________________
 
-$("#enter").on('keydown', function(e) {  
-		var url = "http://www.google.com";  
-		if ( event.which == 13 ) {
-			$(location).attr('href',url);
-		}
-		
+
+$("#enter").on('keydown', function(event) {
+  if(event.which === 13)
+	  window.location.replace("http://google.com/");
 });
+
