@@ -157,6 +157,36 @@ img.logowhite {
 		li {
 			display: inline;
 		}
+				
+				.news:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.recipes:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.favorites:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.events:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.home:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
 
 /*_______________________________________end_nav___________*/
 /*__________________________________________________*/
@@ -427,6 +457,9 @@ footer {
 				padding-right:9%; 
 				margin-top: 12.1%;
 			}
+
+				
+		
 
 /*_______________________________________footer_____end_____*/
 

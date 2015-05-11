@@ -51,6 +51,8 @@ img.logowhite {
 
 
 
+
+
 /*____________________________________yellow____nav_bar__________*/
 
 .nav {
@@ -111,7 +113,7 @@ img.logowhite {
 				  z-index: 100;
 				  position: absolute;
 				  color: white;
-				  transition: all .1s;
+				  transition: all .4s;
 				  width: 0%;
 				  height: 9%;
 				  margin-top: -2.8%;
@@ -158,6 +160,36 @@ img.logowhite {
 			display: inline;
 		}
 
+			
+				.news:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.recipes:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.favorites:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.events:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+
+				.home:hover{
+					-webkit-transform: scale(1.05);
+					-ms-transform: scale(1.05);
+					transform: scale(1.05);
+				}
 /*_______________________________________end_nav___________*/
 /*__________________________________________________*/
 /*__________________________________________________*/
@@ -172,6 +204,7 @@ div.firstsection {
 	padding:0%;
 	margin-top: 3%;
 	border-bottom: 4px solid #000000;
+	
 }
 
 	section.firsttext {
@@ -180,6 +213,7 @@ div.firstsection {
 		width: 45%;
 		display:block;
 	}
+
 
 		h1.firstarticle {
 			font-size: 220%;
@@ -190,6 +224,10 @@ div.firstsection {
 			bottom: 0;
 			margin-top:28%;
 			margin-bottom:0;
+		}
+		
+		h1.firstarticle:hover {
+    		text-decoration: underline;
 		}
 
 		p.firstbodytext {
@@ -218,7 +256,13 @@ div.firstsection {
 			margin:0;
 			float:right; 
 			margin-top: 0;
+			opacity:1;
 		}
+
+		img.firstpicture:hover {
+			opacity:.7;
+		}
+
 
 		img.mobilefirstpicture {
 			display: none;
@@ -249,7 +293,13 @@ div.secondsection {
 		margin:0;
 		float: left; 
 		display: inline-block;
+		opacity:1;
 	}
+
+	img.secondpicture:hover {
+			opacity:.7;
+		}
+
 
 	section.secondtext {
 		width:48%;
@@ -265,6 +315,10 @@ div.secondsection {
 			color: black;
 			float:left;
 			margin-top: 25%;
+		}
+
+		h2.secondarticle:hover {
+    		text-decoration: underline;
 		}
 
 
@@ -296,7 +350,13 @@ div.thirdsection {
 		float: right; 
 		margin-top: 3%;
 		display: inline-block;
+		opacity:1;
 	}
+	
+	img.thirdpicture:hover {
+			opacity:.7;
+		}
+
 
 	section.thirdtext {
 		width:48%;
@@ -313,6 +373,10 @@ div.thirdsection {
 			color: black;
 			float:right;
 			margin-top: 33%;
+		}
+		
+		h2.thirdarticle:hover {
+    		text-decoration: underline;
 		}
 
 		p.thirdbodytext {
@@ -349,6 +413,11 @@ div.fourthsection {
 			display: block;
 			line-height: 50%;
 		}
+
+		h2.fourtharticle:hover {
+    		text-decoration: underline;
+		}
+
 		h3.fourtharticlecaption {
 			float:left;
 			font-family: 'aktiv_grotesk_triallight';
@@ -369,7 +438,36 @@ div.fourthsection {
 			display:inline-block;
 			float:left;
 			width:32.6%;
+			opacity:1;
 		}
+		
+		.fourthright:hover{
+        box-shadow:
+                1px 1px #787878, 	
+                3px 3px #909090, 
+                5px 5px #B8B8B8;
+        -webkit-transform: translateX(20px);
+        transform: translateX(0px);
+		}
+		
+		.fourthmiddle:hover{
+        box-shadow:
+                1px 1px #787878, 	
+                3px 3px #909090, 
+                5px 5px #B8B8B8;
+        -webkit-transform: translateX(20px);
+        transform: translateX(0px);
+		}
+	
+		.fourthleft:hover{
+        box-shadow:
+                1px 1px #787878, 	
+                3px 3px #909090, 
+                5px 5px #B8B8B8;
+        -webkit-transform: translateX(20px);
+        transform: translateX(0px);
+		}
+		
 
 
 		.fourthmiddle {
@@ -413,6 +511,9 @@ footer {
 				padding-right: 10%;
 			}
 
+			.aboutlinks {
+				
+			}
 
 		.newsletter {
 			width: 38%;
@@ -483,6 +584,8 @@ footer {
 				margin-top: 12.1%;
 			}
 
+		
+
 /*_______________________________________footer_____end_____*/
 
 /************************media query ipad ****
@@ -534,7 +637,7 @@ div#searchbar {
 	color:white;
 	background-color:black;
 	width:0%;
-	transition: all .1s;
+	transition: all .4s;
 	top:60%;
 	right:3%;
 	margin-top:5%:

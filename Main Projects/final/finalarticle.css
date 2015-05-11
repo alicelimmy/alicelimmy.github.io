@@ -74,12 +74,12 @@ img.logowhite {
 			height: 10%;
 		}
 		
+		
 		.news , .recipes ,  .events , .favorites { 	
 			float: left;
 			width: 10.1%;
 			height: 10%;
 		}
-
 		.subscribe {
 			width: 13.57%;
 			height: 15%;
@@ -157,6 +157,38 @@ img.logowhite {
 			display: inline;
 		}
 
+
+		.news:hover{
+			-webkit-transform: scale(1.05);
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+	
+		.recipes:hover{
+			-webkit-transform: scale(1.05);
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+
+		.favorites:hover{
+			-webkit-transform: scale(1.05);
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+
+		.events:hover{
+			-webkit-transform: scale(1.05);
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+		
+		.home:hover{
+			-webkit-transform: scale(1.05);
+			-ms-transform: scale(1.05);
+			transform: scale(1.05);
+		}
+		
+		
 /*_______________________________________end_nav___________*/
 /*__________________________________________________*/
 /*__________________________________________________*/
@@ -249,6 +281,12 @@ section.calltoaction {
 	.subscribe2 {
 		width: 15%;
 		display: inline-block;
+	}
+
+	.subscribe2:hover{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
 	}
 
 /*________________________________________end author and call to action__________*/
@@ -394,7 +432,7 @@ footer {
 				margin-top: 12.1%;
 			}
 
-
+	
 
 /******************************************************************************************************************************************************************/
 
@@ -644,6 +682,7 @@ section.author {
 		margin-top:15%;
 	
 	}
+	
 
 /*	______________________________________*/	
 	
