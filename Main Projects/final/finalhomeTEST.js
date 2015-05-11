@@ -55,7 +55,20 @@ $(function () {
 		})						 
 });
 
-//___________search enter ____________________
+//___________nav bar animation ____________________
 
+$(window).scroll(
+	{
+		previousTop: 0
+	},
+	function () {
+		var currentTop = $(window).scrollTop();
+		if (currentTop < this.previousTop) {
+			$(".navscroll").fadeIn();
+		}else {
+			$(".navscroll").hide(); 
+	}
+	this.previousTop = currentTop; 
+	});
 
 

@@ -38,7 +38,7 @@ $(function () {
 			dataType: "json",
 			success: function(data){
 				$("#result").html("THANK YOU!");
-				}
+				} 
 			}
 		);
 	}
@@ -46,18 +46,16 @@ $(function () {
 		
 		$(".submit").click(function(){
 			if($("#newsletterform").val() == "") {
-				$("#result").html("Uh Oh, Please Fill In a Full Email");	
-				return;
-				
+				$("#result").html("Uh Oh, Please Fill In a Full Email");
 				$("#result").css({"color":"red"});
+				return;
 			}
 			
 		 	requestFile("data.json");
 		})						 
 });
 
+//___________search enter ____________________
 
 
-//var temp = $(".searchbox").val();
-//url = "http://google.com/" + temp;
-//window.location(url);
+
