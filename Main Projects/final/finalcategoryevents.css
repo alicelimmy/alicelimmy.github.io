@@ -254,11 +254,14 @@ div.secondsection {
 			padding-left: 3%;
 			margin-right: 17%;
 			}
-	p.bodytext {
-		font-size: 76%;
-		padding:1%;
-		padding-left: 3%;
+	div.textmargin{
+		margin-top:6%;
 	}
+		p.bodytext {
+			font-size: 90%;
+			padding:1%;
+			padding-left: 3%;
+		}
 
 	h3.fourthtitle {
 			line-height: 120%;
@@ -305,7 +308,7 @@ div.thirdsection{
 			}
 		
 		p.bodytext2 {
-			font-size: 76%;
+			font-size: 90%;
 			padding:1%;
 			padding-right: 3%;
 		}
