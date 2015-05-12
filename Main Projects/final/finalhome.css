@@ -441,33 +441,6 @@ div.fourthsection {
 			opacity:1;
 		}
 		
-		.fourthright:hover{
-        box-shadow:
-                1px 1px #787878, 	
-                3px 3px #909090, 
-                5px 5px #B8B8B8;
-        -webkit-transform: translateX(20px);
-        transform: translateX(0px);
-		}
-		
-		.fourthmiddle:hover{
-        box-shadow:
-                1px 1px #787878, 	
-                3px 3px #909090, 
-                5px 5px #B8B8B8;
-        -webkit-transform: translateX(20px);
-        transform: translateX(0px);
-		}
-	
-		.fourthleft:hover{
-        box-shadow:
-                1px 1px #787878, 	
-                3px 3px #909090, 
-                5px 5px #B8B8B8;
-        -webkit-transform: translateX(20px);
-        transform: translateX(0px);
-		}
-		
 
 
 		.fourthmiddle {
