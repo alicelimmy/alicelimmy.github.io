@@ -620,6 +620,7 @@ div#hamburger {
 	button#navigation {
 		background-color: black;
 		border:none;
+		outline:none;
 	}
 
 	
@@ -648,6 +649,7 @@ div#searchbar {
 		border:none;
 		float:right;
 		display:block;
+		outline:none;
 	}
 
 	input.searchbox {
@@ -702,6 +704,7 @@ body {
 				float:left;
 				display:inline-block;
 				padding-left: 5%;
+				
 			}
 
 				img.navbutton {
