@@ -470,12 +470,16 @@ footer {
 			padding: 1.9%;
 			line-height: 200%;
 			display:block;
+			padding-bottom: 1.5%;
 		}
 
 			.aboutheader { 
 				font-family: 'gt_walsheim_pro_trialmedium';
 				color: #f2e833;
 				font-size:155%;
+			}
+			span.credit {
+				font-size: 60%;
 			}
 
 			.aboutlinks {
