@@ -386,7 +386,7 @@ div.thirdsection {
 			text-align: right;
 			margin-top: 42%;
 		}
-			
+	
 /*________________________third section__start ______________*/
 
 /*_______________________________________fourth section __________*/
@@ -570,6 +570,11 @@ footer {
 *********************************************************************/
 
 @media (max-width:768px) {
+	
+/*This makes the responsive resizing not weird */
+div.vitaminheader { 
+		float:left;}
+/*______*/
 	
 div#hamburger {
 		margin-top:12%;
